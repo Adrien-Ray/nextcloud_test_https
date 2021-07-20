@@ -10,3 +10,29 @@ Version: 0.1
 *{
     background-color: black;
 }
+
+.haut-de-page{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    width: 100%;
+}
+.haut-de-page .article-haut{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4vw;
+    margin-left: 2vw;
+}
+.image-1 , .article-haut{
+    width: 50%;
+}
+h1{
+    color: white;
+    font-size: 240px;
+}
+h3{
+    color: #c09628;
+}
+p{
+    color: white;
+}
