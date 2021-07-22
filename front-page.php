@@ -8,6 +8,24 @@
             </div>
     </div>
 
-
+    <div id="equipe">
+        <div class="equipe_card">
+            <div class="equipe_card_membre">
+                <span>KARINA</span>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt="">
+                <span>Co-fondatrice <br>Web Designer </span>
+            </div>
+            <div class="equipe_card_membre">
+                <span>JEAN-BAPTISTE</span>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-JB.png" alt="">
+                <span>Co-fondatrice <br>Web Designer </span>
+            </div>
+            <div class="equipe_card_membre">
+                <span>CHLOÉ</span>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-chloé.png" alt="">
+                <span>Co-fondatrice <br>Web Designer </span>
+            </div>
+        </div>
+    </div>
 
 <?php get_footer(); ?>
