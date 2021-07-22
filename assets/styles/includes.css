@@ -1,2 +1,24 @@
-
-/*# sourceMappingURL=includes.css.map *//*# sourceMappingURL=includes.css.map */
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header div.header__child {
+  border: 1px solid red;
+  flex: 1;
+}
+header div.logo img {
+  height: 7rem;
+  padding-left: 20%;
+}
+header div.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+header div.nav .nav__child {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}/*# sourceMappingURL=includes.css.map */
