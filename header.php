@@ -6,8 +6,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" href="assets/logo/logo-shape-navbar.jpg" type="image/x-icon">
       <title>Shape Agency</title>
-      <link rel="stylesheet" href="assets/styles/content.css">
-      <link rel="stylesheet" href="assets/styles/includes.css">
+      <?php wp_head(); ?>
 </head>
 <body>
-      
