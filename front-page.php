@@ -8,6 +8,7 @@
             </div>
     </div>
 
+<<<<<<< HEAD
     <div class="equipe">
         <div class="equipe_1">
             <span>KARINA</span>
@@ -25,5 +26,8 @@
             <span>Co-fondatrice <br> Web Designer</span>
         </div>
     </div>
+=======
+
+>>>>>>> main
 
 <?php get_footer(); ?>
