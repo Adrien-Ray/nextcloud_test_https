@@ -1,1 +1,26 @@
- 
+ header{
+       display:flex;
+       flex-wrap: wrap;
+       div.header__child{
+            border: 1px solid red;
+            flex: 1;
+       }
+       div.logo{
+            img{
+                  height: 7rem;
+                  padding-left: 20%;
+            }
+       }
+       div.nav{
+            display:flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            .nav__child{
+                  text-decoration: none;
+                  color:white;
+                  font-weight: bold;
+                  padding: 0 0.5rem;
+            }
+       }
+ }
