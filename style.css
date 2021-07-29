@@ -36,3 +36,35 @@ h3{
 p{
     color: white;
 }
+
+
+
+
+
+
+.milieu-de-page{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    width: 100%;
+}
+
+.milieu-de-page .article-milieu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+    margin-left: 4vw;
+    margin-top:50px;
+}
+
+.image-2 , .article-milieu{
+    width: 50%;
+}
+
+h3{
+    color: #c09628;
+}
+
+p{
+    color: white;
+}
