@@ -36,14 +36,31 @@ h3{
 p{
     color: white;
 }
+
 #equipe{
     background-color: #c09628 !important;
+    border: 1px solid red;
+}
+h2{
+    color: white;
+    text-align: center;
     border: 1px solid red;
 }
 .equipe_card{
     display: flex;
     flex-direction: row;
+    border: 1px solid red;
+    text-align: justify;
 }
+
 .equipe_card_membre{
-    
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+}
+
+.equipe_card_membre_img{
+    width: 30%;
+    border: 1px solid red;
+    box-shadow: black;
 }

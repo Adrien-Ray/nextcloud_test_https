@@ -9,23 +9,29 @@
     </div>
 
     <div id="equipe">
+        <h2 class="notre_equipe">NOTRE ÉQUIPE</h2>
         <div class="equipe_card">
             <div class="equipe_card_membre">
-                <span>KARINA</span>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt="">
+                <span>KARINA</span> <br>
+                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br>
                 <span>Co-fondatrice <br>Web Designer </span>
             </div>
             <div class="equipe_card_membre">
-                <span>JEAN-BAPTISTE</span>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-JB.png" alt="">
+                <span>JEAN-BAPTISTE</span> <br>
+                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-JB.png" alt=""> <br>
                 <span>Co-fondatrice <br>Web Designer </span>
             </div>
             <div class="equipe_card_membre">
-                <span>CHLOÉ</span>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-chloé.png" alt="">
+                <span>CHLOÉ</span> <br>
+                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-chloé.png" alt=""> <br>
                 <span>Co-fondatrice <br>Web Designer </span>
             </div>
         </div>
+        <p>
+            Nous sommes une équipe de trois stagiaires de l'Access code school de Dijon.<br>
+            Nous avions pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br>
+            Nous avons choisi d'offrir une solution web adaptée aux besoins des artisans de Bourgogne-Franche-Comté. 
+        </p>
     </div>
 
 <?php get_footer(); ?>
