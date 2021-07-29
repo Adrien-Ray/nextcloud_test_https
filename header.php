@@ -13,6 +13,9 @@
             <div class="logo header__child">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt="">
             </div>
+            <div class="burger header__child">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
+            </div>
             <div class="nav header__child">
                   <a href="" class="nav__child">L'agence</a>
                   <a href="" class="nav__child">Nos services</a>
