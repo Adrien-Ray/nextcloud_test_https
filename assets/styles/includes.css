@@ -1,9 +1,9 @@
 header {
   display: flex;
   flex-wrap: wrap;
+  background-color: black;
 }
 header div.header__child {
-  border: 1px solid red;
   flex: 1;
 }
 header div.logo img {
