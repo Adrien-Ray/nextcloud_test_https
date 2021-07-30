@@ -7,29 +7,31 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-
 .haut-de-page{
     background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
+    
 }
+.div-img1{
+    width: 100%;
+}
+.article-haut{
+    width: 100%;
+    border: red 3px solid;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
 .titre-haut-carte{
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.haut-de-page .article-haut{
-    display: flex;
-    flex-direction: column;
-    margin-right: 4vw;
-    margin-left: 2vw;
-}
-.image-1 , .article-haut{
-    width: 50%;
-}
+
 h1{
     color: white;
     font-size: 240px;
@@ -41,8 +43,14 @@ p{
     color: white;
 }
 .image-1{
-    height: 45rem;
+    /* height: 45rem; */
     object-fit: scale-down;
+    margin: 0px;
+    width: auto;
+    /* padding-right: 8rem; */
+    border: red solid 2px;
+    width: 100%;
+    padding-right: 4vw;
 }
 
 
@@ -55,6 +63,7 @@ p{
     background-color:black;
     height: 16vw;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 /* .titre-carte{
@@ -65,6 +74,8 @@ p{
     padding: 3vw;
     background-color: white;
     width: 24rem;
+    height: 28rem;
+    padding-bottom: 0rem;
 }
 
 .img-carte{
@@ -72,7 +83,7 @@ p{
 }
 .nos-services{
     margin: 0;
-    padding: 6rem 0 1rem 0;
+    padding: 6rem 0 6rem 0;
     color: white;
     font-size: 3rem;
 }
@@ -96,5 +107,9 @@ p{
 
 .test{
     background-color: black;
-    height: 8rem;
+    height: 40rem;
+}
+.para-carte{
+    color: black;
+    
 }
