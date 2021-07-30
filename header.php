@@ -24,13 +24,17 @@
       </header>
 
       <script>
+            let b = 0;
             document.getElementById('burger').addEventListener('click', hideShow);
             function hideShow(){
                   console.log('hello');
-                  if (document.getElementById('nav').style.display === 'none') {
-                        document.getElementById('nav').style.display = 'block';
+                  if (b == 0) {
+                        document.getElementById('nav').style.animation = 'menu 0.3s linear';
+                        document.getElementById('nav').style.animationFillMode = 'both';
+                        b = 1;
                   }else{
-                        document.getElementById('nav').style.display = 'none';
+                        document.getElementById('nav').style.animation = 'menu2 0.3s linear';
+                        b = 0;
                   }
             }
       </script>

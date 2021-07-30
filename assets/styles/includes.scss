@@ -3,7 +3,7 @@
        flex-wrap: wrap;
        background-color: black;
        div.header__child{
-            flex: 1;
+            width: 50%;
        }
        div.logo{
             img{
@@ -29,7 +29,17 @@
        @media screen and (max-width:35rem)
       {
             #nav{
-                  display: none;
+                  /* display: none; */
+                  text-align: center;
+                  width: 100%;
+                  position: relative;
+                  left: -100vw;
+                  display: flex;
+                  flex-wrap: wrap;
+                  a{
+                        width: 100%;
+                        margin-bottom: 1rem;
+                  }
             }
             div.burger{
                   display: flex;
@@ -45,4 +55,12 @@
             }
       }
        
+ }
+ @keyframes menu {
+      0% {transform: translateX(0);}
+      100% {transform: translateX(100vw);}
+ }
+ @keyframes menu2 {
+      0% {transform: translateX(100vw);}
+      100% {transform: translateX(0);}
  }

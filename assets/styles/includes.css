@@ -4,7 +4,7 @@ header {
   background-color: black;
 }
 header div.header__child {
-  flex: 1;
+  width: 50%;
 }
 header div.logo img {
   height: 7rem;
@@ -27,7 +27,17 @@ header div.burger {
 }
 @media screen and (max-width: 35rem) {
   header #nav {
-    display: none;
+    /* display: none; */
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: -100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header #nav a {
+    width: 100%;
+    margin-bottom: 1rem;
   }
   header div.burger {
     display: flex;
@@ -40,5 +50,39 @@ header div.burger {
     padding: 0.4rem;
     border-radius: 0.4rem;
     margin-right: 1rem;
+  }
+}
+
+@-webkit-keyframes menu {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes menu {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+@-webkit-keyframes menu2 {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes menu2 {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
   }
 }/*# sourceMappingURL=includes.css.map */
