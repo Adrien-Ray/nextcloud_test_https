@@ -8,42 +8,97 @@ Requires PHP: 5.2.4
 Version: 0.1
 */
 
-*{
-    background-color: black;
-}
-
 .haut-de-page{
+    background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
 }
-
+.titre-haut-carte{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .haut-de-page .article-haut{
     display: flex;
     flex-direction: column;
     margin-right: 4vw;
     margin-left: 2vw;
 }
-
 .image-1 , .article-haut{
     width: 50%;
 }
-
 h1{
     color: white;
     font-size: 240px;
 }
-
-h3{
+.sous-titre{
     color: #c09628;
 }
-
 p{
     color: white;
 }
+.image-1{
+    height: 45rem;
+    object-fit: scale-down;
+}
+
+
+.carte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:black;
+    height: 16vw;
+    width: 100vw;
+}
+
+
+.carte1, .carte2, .carte3{
+    padding: 3vw;
+    background-color: white;
+    width: 24rem;
+}
+
+.img-carte{
+    margin-bottom: 2rem;
+}
+.nos-services{
+    margin: 0;
+    padding: 6rem 0 1rem 0;
+    color: white;
+    font-size: 3rem;
+}
+.trait-nos-services{
+    border-top: #c09628 solid 4px ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+    width: 60px;
+    
+}
+
+.trait-titre-carte{
+    border-top: #c09628 solid 4px ;
+    width: 8rem;
+}
+
+.titre-carte{
+    padding-bottom: 2rem;
+}
+
+.test{
+    background-color: black;
+    height: 8rem;
+}
 
 /*milieu-de-page*/
+
+body{
+    background-color: black;
+}
 .centre{
     display: flex;
     flex-direction: row;
@@ -65,21 +120,6 @@ p{
     height: 60%; 
 }
 
-/* .art-centre{
-    width: 60%;
-    height: 60%; 
-}
- */
-.h2{
-    color: white;
-    font-size: 350px;
-    margin-right: 2%;
-    margin-left: 5%;
-    margin-top: 35px;
-    padding-top: 25%;
-    text-align: center;
-}
-
 h3{
     margin-top: 50%;
     color: #c09628;
@@ -97,3 +137,19 @@ h3{
     display: inline;
 }
 
+.trait-faites-nous-confiance{
+    border-top: #c09628 solid 4px ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+    width: 60px;
+    margin-left: 44%;
+}
+
+.faites-nous-confiance{
+    margin: 0;
+    padding: 6rem 0 1rem 0;
+    color: white;
+    font-size: 3rem;
+    margin-left: 44%;
+}
