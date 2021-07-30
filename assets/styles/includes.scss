@@ -1,48 +1,87 @@
  header{
-       display:flex;
-       flex-wrap: wrap;
-       background-color: black;
-       div.header__child{
-            flex: 1;
-       }
-       div.logo{
-            img{
-                  height: 7rem;
-                  padding-left: 20%;
+      display:flex;
+      flex-wrap: wrap;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      right: 0;
+      
+    
+
+            div.header__child{
+                  width: 50%;
             }
-       }
-       div.nav{
-            display:flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            align-items: center;
-            .nav__child{
-                  text-decoration: none;
-                  color:white;
-                  font-weight: bold;
-                  padding: 0 0.5rem;
-            }
-       }
-       div.burger{
-             display: none;
-       }
-       @media screen and (max-width:35rem)
-      {
-            div#nav{
-                  display: none;
-            }
-            div.burger{
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
+
+            div.logo{
                   img{
-                        background-color: white;
-                        width: 5rem;
-                        padding: 0.4rem;
-                        border-radius: 0.4rem;
-                        margin: auto;
+                        height: 7rem;
+                        padding-left: 20%;
                   }
             }
-      }
+
+            div.nav{
+                  display:flex;
+                  flex-wrap: nowrap;
+                  justify-content: space-around;
+                  align-items: center;
+                  .nav__child{
+                        text-decoration: none;
+                        color:white;
+                        font-weight: bold;
+                        padding: 0 0.5rem;
+                  }
+            }
+
+            div.burger{
+                  display: none;
+            }
+
+
+            @media screen and (max-width:35rem)
+            {
+                        
+                  #nav{
+                        /* display: none; */
+                        text-align: center;
+                        width: 100%;
+                        position: absolute;
+                        left: -100vw;
+                        top: 7rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        background-color: #000000d8;
+                        a{
+                              width: 100%;
+                              margin-bottom: 1rem;
+                        }
+                        
+                  }
+                  div.burger{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        img{
+                              background-color: white;
+                              width: 5rem;
+                              padding: 0.4rem;
+                              border-radius: 0.4rem;
+                              margin-right: 1rem;
+                        }
+                  }
+
+            
+            }
        
  }
+
+
+ @keyframes menu {
+      0% {transform: translateX(0);}
+      100% {transform: translateX(100vw);}
+ }
+ @keyframes menu2 {
+      0% {transform: translateX(100vw);}
+      100% {transform: translateX(0);}
+ }
+
+

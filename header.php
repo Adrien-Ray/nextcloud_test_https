@@ -17,20 +17,24 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
             </div>
             <div class="nav header__child" id="nav">
-                  <a href="" class="nav__child">L'agence</a>
-                  <a href="" class="nav__child">Nos services</a>
-                  <a href="" class="nav__child">Contact</a>
+                  <a href="#" class="nav__child">L'agence</a>
+                  <a href="#" class="nav__child">Nos services</a>
+                  <a href="#" class="nav__child">Contact</a>
             </div>
       </header>
 
       <script>
+            let b = 0;
             document.getElementById('burger').addEventListener('click', hideShow);
             function hideShow(){
                   console.log('hello');
-                  if (document.getElementById('nav').style.display == 'none') {
-                        document.getElementById('nav').style.display = 'block';
+                  if (b == 0) {
+                        document.getElementById('nav').style.animation = 'menu 0.2s linear';
+                        document.getElementById('nav').style.animationFillMode = 'both';
+                        b = 1;
                   }else{
-                        document.getElementById('nav').style.display = 'none';
+                        document.getElementById('nav').style.animation = 'menu2 0.2s linear';
+                        b = 0;
                   }
             }
       </script>

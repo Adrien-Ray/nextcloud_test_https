@@ -2,9 +2,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 header div.header__child {
-  flex: 1;
+  width: 50%;
 }
 header div.logo img {
   height: 7rem;
@@ -26,19 +29,65 @@ header div.burger {
   display: none;
 }
 @media screen and (max-width: 35rem) {
-  header div#nav {
-    display: none;
+  header #nav {
+    /* display: none; */
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: -100vw;
+    top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000d8;
+  }
+  header #nav a {
+    width: 100%;
+    margin-bottom: 1rem;
   }
   header div.burger {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
   }
   header div.burger img {
     background-color: white;
     width: 5rem;
     padding: 0.4rem;
     border-radius: 0.4rem;
-    margin: auto;
+    margin-right: 1rem;
+  }
+}
+
+@-webkit-keyframes menu {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes menu {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+@-webkit-keyframes menu2 {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes menu2 {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
   }
 }/*# sourceMappingURL=includes.css.map */
