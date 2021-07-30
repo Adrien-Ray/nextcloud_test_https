@@ -7,13 +7,6 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-<<<<<<< HEAD
-=======
-body{
-    background-color: black;
-}
-
->>>>>>> 6ce7ad4975ef98aedd39dde74d5e9a12491ac690
 .haut-de-page{
     background-color: black;
     display: flex;
@@ -117,14 +110,5 @@ p{
 
 .test{
     background-color: black;
-<<<<<<< HEAD
-    height: 40rem;
-}
-.para-carte{
-    color: black;
-    
-}
-=======
     height: 8rem;
 }
->>>>>>> 6ce7ad4975ef98aedd39dde74d5e9a12491ac690
