@@ -10,7 +10,7 @@
    
     
     <div class="milieu-de-page">
-        "">
+        
             <div class="article-milieu">
                 
                 <h3>FAITES-NOUS CONFIANCE</h3>
