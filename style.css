@@ -12,10 +12,17 @@ body{
 }
 
 .haut-de-page{
+    background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
+}
+.titre-haut-carte{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .haut-de-page .article-haut{
     display: flex;
@@ -30,7 +37,7 @@ h1{
     color: white;
     font-size: 240px;
 }
-h3{
+.sous-titre{
     color: #c09628;
 }
 p{
@@ -90,3 +97,61 @@ h2{
     margin-right: 15%;
 }
 
+.image-1{
+    height: 45rem;
+    object-fit: scale-down;
+}
+
+
+
+
+.carte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:black;
+    height: 16vw;
+    width: 100vw;
+}
+
+/* .titre-carte{
+    background-color: black;
+} */
+
+.carte1, .carte2, .carte3{
+    padding: 3vw;
+    background-color: white;
+    width: 24rem;
+}
+
+.img-carte{
+    margin-bottom: 2rem;
+}
+.nos-services{
+    margin: 0;
+    padding: 6rem 0 1rem 0;
+    color: white;
+    font-size: 3rem;
+}
+.trait-nos-services{
+    border-top: #c09628 solid 4px ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+    width: 60px;
+    
+}
+
+.trait-titre-carte{
+    border-top: #c09628 solid 4px ;
+    width: 8rem;
+}
+
+.titre-carte{
+    padding-bottom: 2rem;
+}
+
+.test{
+    background-color: black;
+    height: 8rem;
+}
