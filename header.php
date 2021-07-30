@@ -29,11 +29,11 @@
             function hideShow(){
                   console.log('hello');
                   if (b == 0) {
-                        document.getElementById('nav').style.animation = 'menu 0.3s linear';
+                        document.getElementById('nav').style.animation = 'menu 0.2s linear';
                         document.getElementById('nav').style.animationFillMode = 'both';
                         b = 1;
                   }else{
-                        document.getElementById('nav').style.animation = 'menu2 0.3s linear';
+                        document.getElementById('nav').style.animation = 'menu2 0.2s linear';
                         b = 0;
                   }
             }

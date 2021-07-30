@@ -2,6 +2,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+  position: sticky;
+  top: 0;
 }
 header div.header__child {
   width: 50%;
@@ -30,10 +32,12 @@ header div.burger {
     /* display: none; */
     text-align: center;
     width: 100%;
-    position: relative;
+    position: absolute;
     left: -100vw;
+    top: 7rem;
     display: flex;
     flex-wrap: wrap;
+    background-color: #000000d8;
   }
   header #nav a {
     width: 100%;

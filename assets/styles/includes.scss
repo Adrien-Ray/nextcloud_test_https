@@ -1,17 +1,19 @@
  header{
-       display:flex;
-       flex-wrap: wrap;
-       background-color: black;
-       div.header__child{
+      display:flex;
+      flex-wrap: wrap;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      div.header__child{
             width: 50%;
-       }
-       div.logo{
+      }
+      div.logo{
             img{
                   height: 7rem;
                   padding-left: 20%;
             }
-       }
-       div.nav{
+      }
+      div.nav{
             display:flex;
             flex-wrap: nowrap;
             justify-content: space-around;
@@ -22,20 +24,22 @@
                   font-weight: bold;
                   padding: 0 0.5rem;
             }
-       }
-       div.burger{
+      }
+      div.burger{
              display: none;
-       }
-       @media screen and (max-width:35rem)
+      }
+      @media screen and (max-width:35rem)
       {
             #nav{
                   /* display: none; */
                   text-align: center;
                   width: 100%;
-                  position: relative;
+                  position: absolute;
                   left: -100vw;
+                  top: 7rem;
                   display: flex;
                   flex-wrap: wrap;
+                  background-color: #000000d8;
                   a{
                         width: 100%;
                         margin-bottom: 1rem;
