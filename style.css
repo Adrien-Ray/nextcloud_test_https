@@ -41,26 +41,53 @@ p{
     background-color: #c09628 !important;
     border: 1px solid red;
 }
+
+@media only screen and (max-width: 600px) {
+    .equipe_card{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+        }
+    .equipe_para{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+
 h2{
     color: white;
     text-align: center;
     border: 1px solid red;
+    margin-top: 50px;
 }
 .equipe_card{
     display: flex;
-    flex-direction: row;
-    border: 1px solid red;
-    text-align: justify;
+    justify-content: space-between;
+    border: 1px solid green;
+    text-align: center;
+    flex-wrap: wrap-reverse;
 }
 
 .equipe_card_membre{
     text-align: center;
     color: white;
     border: 1px solid red;
+    margin-top: 6%;
 }
 
 .equipe_card_membre_img{
+    margin-top: 4%;
     width: 30%;
     border: 1px solid red;
-    box-shadow: black;
+    box-shadow: 0px 0px 10px #000;
+    
 }
+
+.equipe_para{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
