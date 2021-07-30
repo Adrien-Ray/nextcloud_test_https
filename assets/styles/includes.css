@@ -4,6 +4,7 @@ header {
   background-color: black;
   position: sticky;
   top: 0;
+  right: 0;
 }
 header div.header__child {
   width: 50%;
