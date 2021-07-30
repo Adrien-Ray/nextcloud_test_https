@@ -62,7 +62,6 @@
         </div>
     <div class="test"></div>
     
-
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
         <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
