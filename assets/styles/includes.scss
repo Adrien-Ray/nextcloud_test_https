@@ -28,19 +28,19 @@
        }
        @media screen and (max-width:35rem)
       {
-            div#nav{
+            #nav{
                   display: none;
             }
             div.burger{
                   display: flex;
                   align-items: center;
-                  justify-content: center;
+                  justify-content: flex-end;
                   img{
                         background-color: white;
                         width: 5rem;
                         padding: 0.4rem;
                         border-radius: 0.4rem;
-                        margin: auto;
+                        margin-right: 1rem;
                   }
             }
       }

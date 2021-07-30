@@ -17,9 +17,9 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
             </div>
             <div class="nav header__child" id="nav">
-                  <a href="" class="nav__child">L'agence</a>
-                  <a href="" class="nav__child">Nos services</a>
-                  <a href="" class="nav__child">Contact</a>
+                  <a href="#" class="nav__child">L'agence</a>
+                  <a href="#" class="nav__child">Nos services</a>
+                  <a href="#" class="nav__child">Contact</a>
             </div>
       </header>
 
@@ -27,7 +27,7 @@
             document.getElementById('burger').addEventListener('click', hideShow);
             function hideShow(){
                   console.log('hello');
-                  if (document.getElementById('nav').style.display == 'none') {
+                  if (document.getElementById('nav').style.display === 'none') {
                         document.getElementById('nav').style.display = 'block';
                   }else{
                         document.getElementById('nav').style.display = 'none';
