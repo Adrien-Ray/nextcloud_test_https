@@ -11,7 +11,7 @@
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
-        <h2 class="nos-services">NOS SERVICES</h2>
+        <h2 class="nos-services" href="#">NOS SERVICES</h2>
         </div>
     </div>
     <div class="carte">
@@ -37,7 +37,27 @@
 
     </div>
 
-    <div class="contact ">
+    <div class="titre-centre">
+        <div class="encadrement-faites-nous-confiance">
+        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
+        <div href="h2"></div>
+        </div>
+    </div>
+    <div class="centre">
+            <div class="article-centre">
+                   
+                <h3>Donnez forme à votre projet.</h3>
+                <p>Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous seras transmis. SHAPE ne fait pas de copier/coller:<br>Nous ne proposons que des stratégies web personnalisées à nos clients.</p>
+                   <button id="button">Je souhaite un devis</button>
+            </div>
+            <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+            
+    </div>
+    </div>
+    </div>
+            
+
+<div class="contact ">
         
         <h2 class="contact">CONTACT</h2>
         <div class="contact_form">
@@ -61,25 +81,6 @@
             </form>
         </div>
     <div class="test"></div>
-    
-    <div class="titre-centre">
-        <div class="encadremenet-faites-nous-confiance">
-        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-        <div class="trait-faites-nous-confiance"></div>
-        </div>
-    </div>
-    <div class="centre">
-            <div class="art-centre">
-                <h2></h2>   
-                <h3>Donnez forme à votre projet</h3>
-                <art>Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous seras transmis.<br>SHAPE ne fait pas de copier/coller:<br>Nous ne proposons que des stratégies web personnalisées à nos clients.</art>
-            </div>
-            <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
-    </div>
-    </div>
-
-    </div>
-
     
     <div id="equipe" >
         <div class="container">
