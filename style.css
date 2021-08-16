@@ -8,34 +8,40 @@ Requires PHP: 5.2.4
 Version: 0.1
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
     background-color: black;
 }
 =======
 >>>>>>> sonia
 
+=======
+>>>>>>> 3b4aed9c4b21bdd545151ec4584874f1ed040950
 .haut-de-page{
     background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
+    
 }
+.div-img1{
+    width: 100%;
+}
+.article-haut{
+    width: 100%;
+    border: red 3px solid;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
 .titre-haut-carte{
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.haut-de-page .article-haut{
-    display: flex;
-    flex-direction: column;
-    margin-right: 4vw;
-    margin-left: 2vw;
-}
-.image-1 , .article-haut{
-    width: 50%;
-}
+
 h1{
     color: white;
     font-size: 240px;
@@ -48,64 +54,19 @@ p{
 }
 <<<<<<< HEAD
 
-#equipe{
-    background-color: #c09628 !important;
-    border: 1px solid red;
-}
 
-@media only screen and (max-width: 600px) {
-    .equipe_card{
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-        }
-    .equipe_para{
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-}
-
-h2{
-    color: white;
-    text-align: center;
-    border: 1px solid red;
-    margin-top: 50px;
-}
-.equipe_card{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid green;
-    text-align: center;
-    flex-wrap: wrap-reverse;
-}
-
-.equipe_card_membre{
-    text-align: center;
-    color: white;
-    border: 1px solid red;
-    margin-top: 6%;
-}
-
-.equipe_card_membre_img{
-    margin-top: 4%;
-    width: 30%;
-    border: 1px solid red;
-    box-shadow: 0px 0px 10px #000;
-    
-}
-
-.equipe_para{
-    margin-top: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 
 =======
 >>>>>>> sonia
 .image-1{
-    height: 45rem;
+    /* height: 45rem; */
     object-fit: scale-down;
+    margin: 0px;
+    width: auto;
+    /* padding-right: 8rem; */
+    border: red solid 2px;
+    width: 100%;
+    padding-right: 4vw;
 }
 
 
@@ -121,6 +82,7 @@ h2{
     background-color:black;
     height: 16vw;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 <<<<<<< HEAD
@@ -134,6 +96,8 @@ h2{
     padding: 3vw;
     background-color: white;
     width: 24rem;
+    height: 28rem;
+    padding-bottom: 0rem;
 }
 
 .img-carte{
@@ -141,7 +105,7 @@ h2{
 }
 .nos-services{
     margin: 0;
-    padding: 6rem 0 1rem 0;
+    padding: 6rem 0 6rem 0;
     color: white;
     font-size: 3rem;
 }
