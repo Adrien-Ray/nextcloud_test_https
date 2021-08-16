@@ -7,16 +7,11 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 body{
     background-color: black;
 }
-=======
->>>>>>> sonia
 
-=======
->>>>>>> 3b4aed9c4b21bdd545151ec4584874f1ed040950
 .haut-de-page{
     background-color: black;
     display: flex;
@@ -52,12 +47,9 @@ h1{
 p{
     color: white;
 }
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> sonia
 .image-1{
     /* height: 45rem; */
     object-fit: scale-down;
@@ -70,11 +62,8 @@ p{
 }
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> sonia
 .carte{
     display: flex;
     flex-direction: row;
@@ -85,12 +74,9 @@ p{
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 /* .titre-carte{
     background-color: black;
 } */
-=======
->>>>>>> sonia
 
 .carte1, .carte2, .carte3{
     padding: 3vw;
@@ -131,8 +117,6 @@ p{
     background-color: black;
     height: 8rem;
 }
-<<<<<<< HEAD
-=======
 
 /*milieu-de-page*/
 
@@ -193,4 +177,3 @@ h3{
     font-size: 3rem;
     margin-left: 44%;
 }
->>>>>>> sonia
