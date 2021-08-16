@@ -82,14 +82,17 @@ p{
     padding: 3vw;
     background-color: white;
     width: 24rem;
-    height: 28rem;
+    height: 36rem;
     padding-bottom: 0rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .img-carte{
-    margin-bottom: 2rem;
+    text-align: center;
+    height: 4rem;
+    width: 4rem;
 }
 .nos-services{
     margin: 0;
@@ -112,7 +115,8 @@ p{
 }
 
 .titre-carte{
-    padding-bottom: 2rem;
+    margin-bottom: 4rem  ;
+    color: black;
 }
 
 .test{
@@ -205,4 +209,11 @@ h3{
 }
 .para-carte{
     color: black;
+}
+
+@media screen and (max-width: 50rem){
+.carte1, .carte2, .carte3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
 }
