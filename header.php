@@ -37,4 +37,8 @@
                         b = 0;
                   }
             }
+<<<<<<< HEAD
       </script>
+=======
+      </script>
+>>>>>>> sonia

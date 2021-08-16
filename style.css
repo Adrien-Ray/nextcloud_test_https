@@ -7,6 +7,11 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
+
+body{
+    background-color: black;
+}
+
 .haut-de-page{
     background-color: black;
     display: flex;
@@ -111,4 +116,64 @@ p{
 .test{
     background-color: black;
     height: 8rem;
+}
+
+/*milieu-de-page*/
+
+body{
+    background-color: black;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    width: 100%;
+}
+
+.centre .art-centre{
+    display: flex;
+    flex-direction: column;
+    margin-right: 45%;
+    margin-left: 15%;
+    margin-top:30px;
+}
+
+
+.image-2{
+    width: 60%;
+    height: 60%; 
+}
+
+h3{
+    margin-top: 50%;
+    color: #c09628;
+    margin-bottom: 50px;
+    margin-right: 2%;
+    margin-left: 5%;
+    display: inline;
+}
+
+.art{
+    line-height: normal;
+    color: white;
+    margin-right: 2%;
+    margin-left: 5%;
+    display: inline;
+}
+
+.trait-faites-nous-confiance{
+    border-top: #c09628 solid 4px ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+    width: 60px;
+    margin-left: 44%;
+}
+
+.faites-nous-confiance{
+    margin: 0;
+    padding: 6rem 0 1rem 0;
+    color: white;
+    font-size: 3rem;
+    margin-left: 44%;
 }
