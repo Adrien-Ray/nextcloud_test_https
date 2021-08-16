@@ -1,0 +1,113 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 4%;
+
+}
+
+.contact_form {
+    /* margin-top: 2%; */
+    margin-bottom: 6%;
+}
+
+#name {
+    width: 400px;
+    height: 70px;
+}
+
+#mail {
+    margin-top: 15px;
+    width: 400px;
+    height: 70px;
+}
+
+#msg {
+    margin-top: 15px;
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    font-size: 20px;
+    width: 110px;
+    margin-top: 15px;
+    background-color: black ;
+    color: #c09628;
+    border: solid;
+    border-style: #c09628 2px ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact_form_bouton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_para {
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.contact_para-1_p {
+    display: flex;
+    width: 400px;
+    height: 120px;
+    padding-top: 15px;
+}
+
+#contact_para-2_bouton {
+    font-size: 20px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-style: white 0.5px;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.contact_para-mobile{
+    margin-top: 2%;
+    margin-bottom: 6%;
+    display : none ;
+}
+
+::placeholder {
+    color: #c09628;
+    font-size: 1.5em;
+  }
+
+@media screen and (max-width: 985px){
+    .contact_para-1 {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .contact_para-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_para-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        order: 1;   
+    }
+
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        order: 0;
+        
+    }
+   
+}
