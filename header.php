@@ -9,7 +9,7 @@
       <?php wp_head(); ?>
 </head>
 <body>
-      <header>
+      <header id="header">
             <div class="logo header__child">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt="">
             </div>
@@ -30,15 +30,11 @@
                   console.log('hello');
                   if (b == 0) {
                         document.getElementById('nav').style.animation = 'menu 0.2s linear';
-                        document.getElementById('nav').style.animationFillMode = 'both';
+                        document.getElementById('nav').style.animationFillMode = 'both'; //ça bloque a 100%
                         b = 1;
                   }else{
                         document.getElementById('nav').style.animation = 'menu2 0.2s linear';
                         b = 0;
                   }
             }
-<<<<<<< HEAD
       </script>
-=======
-      </script>
->>>>>>> sonia
