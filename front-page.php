@@ -103,8 +103,8 @@
                 </div>
             </div>
             <p class="equipe_para">
-                Nous sommes une équipe de trois stagiaires de l'Access code school de Dijon.<br> <br>
-                Nous avions pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br>
+                Nous sommes une équipe de trois stagiaires de l'Access Code School de Dijon.<br> <br>
+                Nous avons pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br>
                 Nous avons choisi d'offrir une solution web adaptée aux besoins des artisans de Bourgogne-Franche-Comté. 
             </p>
         </div>
