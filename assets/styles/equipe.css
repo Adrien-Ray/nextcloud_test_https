@@ -1,0 +1,39 @@
+#equipe{
+    background-color: #c09628 !important;
+    border: 1px solid red;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+.equipe_card{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+
+.equipe_card_membre{
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+    margin-top: 6%;
+}
+
+.equipe_card_membre_img{
+    margin-top: 4%;
+    width: 30%;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+.equipe_para{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}

@@ -7,6 +7,7 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
+
 body{
     background-color: black;
 }
@@ -47,58 +48,7 @@ p{
     color: white;
 }
 
-#equipe{
-    background-color: #c09628 !important;
-    border: 1px solid red;
-}
 
-@media only screen and (max-width: 600px) {
-    .equipe_card{
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-        }
-    .equipe_para{
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-}
-
-h2{
-    color: white;
-    text-align: center;
-    border: 1px solid red;
-    margin-top: 50px;
-}
-.equipe_card{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid green;
-    text-align: center;
-    flex-wrap: wrap-reverse;
-}
-
-.equipe_card_membre{
-    text-align: center;
-    color: white;
-    border: 1px solid red;
-    margin-top: 6%;
-}
-
-.equipe_card_membre_img{
-    margin-top: 4%;
-    width: 30%;
-    border: 1px solid red;
-    box-shadow: 0px 0px 10px #000;
-    
-}
-
-.equipe_para{
-    margin-top: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 
 .image-1{
     /* height: 45rem; */
@@ -169,9 +119,11 @@ h2{
     background-color: black;
     height: 40rem;
 }
-.para-carte{
-    color: black;
-    
+
+/*milieu-de-page*/
+
+body{
+    background-color: black;
 }
 
 h2{display:inline-block;min-width:50px;}
@@ -196,4 +148,58 @@ h2:after {
 h2:hover:after {
   width: 90%;
   background: #c09628;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    width: 100%;
+}
+
+.centre .art-centre{
+    display: flex;
+    flex-direction: column;
+    margin-right: 45%;
+    margin-left: 15%;
+    margin-top:30px;
+}
+
+
+.image-2{
+    width: 60%;
+    height: 60%; 
+}
+
+h3{
+    margin-top: 50%;
+    color: #c09628;
+    margin-bottom: 50px;
+    margin-right: 2%;
+    margin-left: 5%;
+    display: inline;
+}
+
+.art{
+    line-height: normal;
+    color: white;
+    margin-right: 2%;
+    margin-left: 5%;
+    display: inline;
+}
+
+.trait-faites-nous-confiance{
+    border-top: #c09628 solid 4px ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+    width: 60px;
+    margin-left: 44%;
+}
+
+.faites-nous-confiance{
+    margin: 0;
+    padding: 6rem 0 1rem 0;
+    color: white;
+    font-size: 3rem;
+    margin-left: 44%;
 }
