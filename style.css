@@ -84,6 +84,8 @@ p{
     width: 24rem;
     height: 28rem;
     padding-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-carte{
@@ -115,13 +117,37 @@ p{
 
 .test{
     background-color: black;
-    height: 8rem;
+    height: 40rem;
 }
 
 /*milieu-de-page*/
 
 body{
     background-color: black;
+}
+
+h2{display:inline-block;min-width:50px;}
+h2{
+    text-decoration:none;
+    line-height: 70px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
+}
+h2:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+h2:hover:after {
+  width: 90%;
+  background: #c09628;
 }
 .centre{
     display: flex;
@@ -186,4 +212,6 @@ h3{
     height: 60px;
     border-radius: 6px;
 }
-
+.para-carte{
+    color: black;
+}
