@@ -1,10 +1,11 @@
 header {
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.932);
   position: sticky;
-  top: 0;
-  right: 0;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
 }
 header div.header__child {
   width: 50%;

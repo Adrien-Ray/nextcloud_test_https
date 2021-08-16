@@ -9,7 +9,7 @@
       <?php wp_head(); ?>
 </head>
 <body>
-      <header>
+      <header id="header">
             <div class="logo header__child">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt="">
             </div>
@@ -37,4 +37,5 @@
                         b = 0;
                   }
             }
+
       </script>
