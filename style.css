@@ -7,13 +7,10 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-<<<<<<< HEAD
-=======
 body{
     background-color: black;
 }
 
->>>>>>> 6ce7ad4975ef98aedd39dde74d5e9a12491ac690
 .haut-de-page{
     background-color: black;
     display: flex;
@@ -137,6 +134,8 @@ h2{
     width: 24rem;
     height: 28rem;
     padding-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-carte{
@@ -168,14 +167,33 @@ h2{
 
 .test{
     background-color: black;
-<<<<<<< HEAD
     height: 40rem;
 }
 .para-carte{
     color: black;
     
 }
-=======
-    height: 8rem;
+
+h2{display:inline-block;min-width:50px;}
+h2{
+    text-decoration:none;
+    line-height: 70px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
 }
->>>>>>> 6ce7ad4975ef98aedd39dde74d5e9a12491ac690
+h2:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+h2:hover:after {
+  width: 90%;
+  background: #c09628;
+}
