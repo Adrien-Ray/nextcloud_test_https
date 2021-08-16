@@ -5,15 +5,8 @@
         </div>
             <div class="article-haut">
                 <h1>SHAPE</h1>
-<<<<<<< HEAD
                 <h3 class="sous-titre">Vos projets prennent forme.</h3>
                 <p>SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
-=======
-                <h3>Vos projets prennent forme.</h3>
-                <p>
-                 SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale
-                </p>
->>>>>>> tiavina
             </div>
     </div>
     <div class="titre-haut-carte">
@@ -41,6 +34,24 @@
         
     </div>
     <div class="test">
+
+    </div>
+    
+    <div class="titre-centre">
+        <div class="encadremenet-faites-nous-confiance">
+        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
+        <div class="trait-faites-nous-confiance"></div>
+        </div>
+    </div>
+    <div class="centre">
+            <div class="art-centre">
+                <h2></h2>   
+                <h3>Donnez forme à votre projet</h3>
+                <art>Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous seras transmis.<br>SHAPE ne fait pas de copier/coller:<br>Nous ne proposons que des stratégies web personnalisées à nos clients.</art>
+            </div>
+            <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+    </div>
+    </div>
 
     </div>
 
@@ -86,28 +97,7 @@
                 </div>
            </div> 
         </div>
-<<<<<<< HEAD
     <div class="test"></div>
-    
-    <div class="titre-centre">
-        <div class="encadremenet-faites-nous-confiance">
-        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-        <div class="trait-faites-nous-confiance"></div>
-        </div>
-    </div>
-    <div class="centre">
-            <div class="art-centre">
-                <h2></h2>   
-                <h3>Donnez forme à votre projet</h3>
-                <art>Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous seras transmis.<br>SHAPE ne fait pas de copier/coller:<br>Nous ne proposons que des stratégies web personnalisées à nos clients.</art>
-            </div>
-            <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
-    </div>
-    </div>
-
-=======
->>>>>>> tiavina
-    </div>
     
     <div id="equipe">
         <div class="container">
