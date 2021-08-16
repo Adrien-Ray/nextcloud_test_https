@@ -32,6 +32,7 @@ header{
             .nav__child::after{
                   content: '';
                   display: block;
+                  margin: auto;
                   height: 2px;
                   width: 0;
                   background-color: #c09628;
