@@ -169,8 +169,8 @@ h2:hover:after {
 
 
 .image-2{
-    width: 60%;
-    height: 60%; 
+    width: 50%;
+    height: 50%; 
 }
 
 h3{
@@ -182,11 +182,11 @@ h3{
 }
 
 .p{
-   
+   font-family: "nunito_sans" ;
     color: white;
     display: inline;
     z-index: index 10;
-    font-size: 2.5em;
+    font-size: 5em;
 }
 
 
