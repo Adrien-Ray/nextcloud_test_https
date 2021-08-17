@@ -66,8 +66,8 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     background-color:black;
-    height: 16vw;
-    width: 100vw;
+    /* height: 16vw;*/
+    width: 100vw; 
     flex-wrap: wrap;
 }
 
