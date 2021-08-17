@@ -7,41 +7,30 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-
 body{
     background-color: black;
 }
 
 .haut-de-page{
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
-    
 }
-.div-img1{
-    width: 100%;
-}
-.article-haut{
-    width: 100%;
-    border: red 3px solid;
-    padding-left: 4vw;
-    padding-right: 4vw;
-}
-
-.titre-haut-carte{
-    background-color: black;
+.haut-de-page .article-haut{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-right: 4vw;
+    margin-left: 2vw;
 }
-
+.image-1 , .article-haut{
+    width: 50%;
+}
 h1{
     color: white;
     font-size: 240px;
 }
-.sous-titre{
+h3{
     color: #c09628;
 }
 p{
@@ -49,171 +38,3 @@ p{
 }
 
 
-
-.image-1{
-    /* height: 45rem; */
-    object-fit: scale-down;
-    margin: 0px;
-    width: auto;
-    /* padding-right: 8rem; */
-    border: red solid 2px;
-    width: 100%;
-    padding-right: 4vw;
-}
-
-
-
-
-.carte{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color:black;
-    height: 16vw;
-    width: 100vw;
-    flex-wrap: wrap;
-}
-
-/* .titre-carte{
-    background-color: black;
-} */
-
-.carte1, .carte2, .carte3{
-    padding: 3vw;
-    background-color: white;
-    width: 24rem;
-    height: 36rem;
-    padding-bottom: 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-carte{
-    text-align: center;
-    height: 4rem;
-    width: 4rem;
-}
-.nos-services{
-    margin: 0;
-    padding: 6rem 0 6rem 0;
-    color: white;
-    font-size: 3rem;
-}
-.trait-nos-services{
-    border-top: #c09628 solid 4px ;
-    display: flex;
-    align-items: center;
-    padding-bottom: 6rem;
-    width: 60px;
-    
-}
-
-.trait-titre-carte{
-    border-top: #c09628 solid 4px ;
-    width: 8rem;
-}
-
-.titre-carte{
-    margin-bottom: 4rem  ;
-    color: black;
-}
-
-.test{
-    background-color: black;
-    height: 40rem;
-}
-
-/*milieu-de-page*/
-
-body{
-    background-color: black;
-}
-
-h2{display:inline-block;min-width:50px;}
-h2{
-    text-decoration:none;
-    line-height: 70px;
-    padding: 0 10px;
-    text-align: center;
-    font-size: 1.3em;
-    color: black;
-    text-transform: uppercase;
-}
-h2:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 1px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-h2:hover:after {
-  width: 90%;
-  background: #c09628;
-}
-.centre{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 2;
-    width: 100%;
-}
-
-.centre .art-centre{
-    display: flex;
-    flex-direction: column;
-    margin-right: 45%;
-    margin-left: 15%;
-    margin-top:30px;
-}
-
-
-.image-2{
-    width: 60%;
-    height: 60%; 
-}
-
-h3{
-    margin-top: 50%;
-    color: #c09628;
-    margin-bottom: 50px;
-    margin-right: 2%;
-    margin-left: 5%;
-    display: inline;
-}
-
-.art{
-    line-height: normal;
-    color: white;
-    margin-right: 2%;
-    margin-left: 5%;
-    display: inline;
-}
-
-.trait-faites-nous-confiance{
-    border-top: #c09628 solid 4px ;
-    display: flex;
-    align-items: center;
-    padding-bottom: 6rem;
-    width: 60px;
-    margin-left: 44%;
-}
-
-.faites-nous-confiance{
-    margin: 0;
-    padding: 6rem 0 1rem 0;
-    color: white;
-    font-size: 3rem;
-    margin-left: 44%;
-}
-.para-carte{
-    color: black;
-}
-
-@media screen and (max-width: 50rem){
-.carte1, .carte2, .carte3{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    }
-}
