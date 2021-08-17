@@ -111,6 +111,8 @@ header div.burger {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
 }
 .initial_footer .initial_footer__child {
   margin: 0 1rem;
