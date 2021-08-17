@@ -84,7 +84,7 @@
     
     <div id="equipe" >
         <div class="container">
-            <h2 class="notre_equipe">NOTRE ÉQUIPE</h2>
+            <h2>NOTRE ÉQUIPE</h2>
             <div class="equipe_card container">
                 <div class="equipe_card_membre">
                     <span>KARINA</span> <br> 
@@ -102,10 +102,8 @@
                     <span>Co-fondatrice <br>Web Designer </span>
                 </div>
             </div>
-            <p class="equipe_para">
-                Nous sommes une équipe de trois stagiaires de l'Access Code School de Dijon.<br> <br>
-                Nous avons pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br>
-                Nous avons choisi d'offrir une solution web adaptée aux besoins des artisans de Bourgogne-Franche-Comté. 
+            <p 
+             class="equipe_para"> Nous sommes une équipe de trois stagiaires de l'Access code school de Dijon.<br> <br> Nous avions pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br> Nous avons choisi d'offrir une solution web adaptée aux besoins des artisans de Bourgogne-Franche-Comté. 
             </p>
         </div>
     </div>
