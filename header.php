@@ -37,4 +37,10 @@
                         b = 0;
                   }
             }
+            
+/* 
+            window.onscroll = function (e) {  
+                  document.getElementById('header').style.position = 'sticky';
+                  document.getElementById('header').style.top = '0';
+            }  */
       </script>

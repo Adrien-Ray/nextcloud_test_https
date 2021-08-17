@@ -29,6 +29,7 @@ header{
                   font-weight: bold;
                   padding: 0 0.5rem;
             }
+            // SOULIGNEMENT EFFECT DANS MENU
             .nav__child::after{
                   content: '';
                   display: block;
@@ -42,6 +43,7 @@ header{
                   width: 100%;
                   transition-duration: 0.3s;
             }
+            // FIN SOULIGNEMENT EFFECT DANS MENU
       }
 
       div.burger{
