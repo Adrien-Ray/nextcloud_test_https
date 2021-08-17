@@ -16,7 +16,7 @@ h2{
     flex-wrap: wrap-reverse;
 }
 
-.equipe_card_membre{
+.equipe_card_membre-1, .equipe_card_membre-2, .equipe_card_membre-3 {
     text-align: center;
     color: white;
     margin-top: 6%;
@@ -32,4 +32,38 @@ h2{
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.container-fluid, .container, .equipe ,.carte {
+    border: solid red;
+}
+
+.contact_para-mobile, .contact , .equipe_card {
+    border: solid green;
+}
+
+@media screen and (max-width: 985px){
+    
+    .equipe_card_membre-1{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        order: 1;
+    }
+
+    .equipe_card_membre-2{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        order: 2;   
+    }
+
+    .equipe_card_membre-3{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        order: 3;
+        
+    }
+   
 }
