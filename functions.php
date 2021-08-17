@@ -31,7 +31,7 @@ function register_assets(){
 		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css'
 	);
 		  
-    if (is_front_page()){
+    if (is_front_page() || is_page('newsletter')){
 		wp_enqueue_style(
 		'shape-theme-custom-css',
 		get_template_directory_uri().'/style.css',
