@@ -102,7 +102,7 @@
     <div id="equipe">
         <div class="container">
             <h2>NOTRE ÉQUIPE</h2>
-            <div class="equipe_card container">
+            <div class="equipe_card ">
                 <div class="equipe_card_membre">
                     <span>KARINA</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br> <br>
