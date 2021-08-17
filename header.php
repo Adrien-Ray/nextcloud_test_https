@@ -37,13 +37,10 @@
                         b = 0;
                   }
             }
-<<<<<<< HEAD
             
 /* 
             window.onscroll = function (e) {  
                   document.getElementById('header').style.position = 'sticky';
                   document.getElementById('header').style.top = '0';
             }  */
-=======
->>>>>>> e6633ac2128558c9031106ac0661eaf1142ad395
       </script>
