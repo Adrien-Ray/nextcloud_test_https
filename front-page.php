@@ -87,13 +87,13 @@
 
             <div class="contact_para"> 
                 <div class="contact_para-1">
-                    <h3>Je souhaite vous contacter</h3>
+                    <h3 class="contact_para-h3">Je souhaite vous contacter</h3>
                     <p 
                      class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
                     </p>
                 </div>
                 <div class="contact_para-2">
-                    <h3>Qui se cache derrière SHAPE ?</h3>
+                    <h3 class="contact_para-h3">Qui se cache derrière SHAPE ?</h3>
                     <button id="contact_para-2_bouton">Découvrir notre équipe</button>
                 </div>
            </div> 
