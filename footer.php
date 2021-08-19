@@ -9,7 +9,7 @@ newsletter_form();
             2021 | Tous droits réservés SHAPE
       </div>
       <div class="initial_footer__child">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/linkedin.png" alt="">
+            <a href="https://www.linkedin.com/company/shape-agence/"><img src="<?php echo get_template_directory_uri(); ?>/assets/logo/linkedin.png" alt=""></a>
       </div>
 </div>
 </body>
