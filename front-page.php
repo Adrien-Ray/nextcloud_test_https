@@ -100,7 +100,7 @@
         </div>
     </div>
 
-    <div id="equipe">
+    <div id="equipe" style="display:none">
         <div class="container">
             <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
 
@@ -126,5 +126,22 @@
             </p>
         </div>
     </div>
+    <script>
+        const ekip = document.getElementById('equipe');
+        const button = document.getElementById('contact_para-2_bouton');
+        var ie = 0;
+        button.addEventListener('click', toogleteam);
+        function toogleteam() {
+            if (ie == 0) {
+                ie++;
+                ekip.style.display = 'block';
+                console.log(ie);
+            }else{
+                ie = 0;
+                ekip.style.display = 'none';
+                console.log(ie);
+            }
+        }
+    </script>
 
 <?php get_footer(); ?>
