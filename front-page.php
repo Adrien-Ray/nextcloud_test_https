@@ -55,7 +55,7 @@
     </div>
 
     <div class="container ">
-        <h2>CONTACT</h2>
+        <h2 id="contact-h2">CONTACT</h2>
 
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
@@ -102,20 +102,20 @@
 
     <div id="equipe">
         <div class="container">
-            <h2>NOTRE ÉQUIPE</h2>
+            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
 
             <div class="equipe_card ">
-                <div class="equipe_card_membre-1">
+                <div class="equipe_card_membre">
                     <span>KARINA</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br> <br>
                     <span>Co-fondatrice <br>Web Designer </span>
                 </div>
-                <div class="equipe_card_membre-2">
+                <div class="equipe_card_membre">
                     <span>JEAN-BAPTISTE</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-JB.png" alt=""> <br> <br>
                     <span>Co-fondatrice <br>Web Designer </span>
                 </div>
-                <div class="equipe_card_membre-3">
+                <div class="equipe_card_membre">
                     <span>CHLOÉ</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-chloé.png" alt=""> <br> <br>
                     <span>Co-fondatrice <br>Web Designer </span>

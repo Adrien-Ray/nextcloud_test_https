@@ -8,6 +8,10 @@
 
 }
 
+#contact-h2{
+    display: block;
+}
+
 .contact_form {
     /* margin-top: 2%; */
     margin-bottom: 6%;
