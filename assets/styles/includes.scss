@@ -96,3 +96,19 @@ header{
       0% {transform: translateX(100vw);}
       100% {transform: translateX(0);}
  }
+
+ .initial_footer{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: space-around;
+       margin-bottom: 2rem;
+       margin-top: 2rem;
+       color:white;
+      .initial_footer__child{
+            margin: 0 1rem;
+            img{
+                  height: 2rem;
+            }
+      }
+ }
