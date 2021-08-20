@@ -67,7 +67,7 @@ p{
     justify-content: space-evenly;
     background-color:black;
     /* height: 16vw;*/
-    width: 100vw; 
+    width: 100%; 
     flex-wrap: wrap;
 }
 

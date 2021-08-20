@@ -135,11 +135,9 @@
             if (ie == 0) {
                 ie++;
                 ekip.style.display = 'block';
-                console.log(ie);
             }else{
                 ie = 0;
                 ekip.style.display = 'none';
-                console.log(ie);
             }
         }
     </script>
