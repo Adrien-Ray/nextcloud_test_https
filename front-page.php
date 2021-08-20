@@ -33,9 +33,6 @@
         </div>
         
     </div>
-    <div class="test">
-
-    </div>
     
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
@@ -97,7 +94,6 @@
                 </div>
            </div> 
         </div>
-    <div class="test"></div>
     
     <div id="equipe">
         <div class="container">

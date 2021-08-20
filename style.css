@@ -79,7 +79,7 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     background-color:black;
-    height: 16vw;
+    height: 50vw;
     width: 100vw;
     flex-wrap: wrap;
 }
