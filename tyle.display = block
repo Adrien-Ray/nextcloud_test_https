@@ -1,0 +1,678 @@
+[33mcommit 40a17fb85b73429ed5cc9a77b977f642de5fd6fb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/adrien[m[33m, [m[1;32madrien[m[33m)[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Aug 19 15:56:02 2021 +0200
+
+    toggle
+
+[33mcommit 3df7f52a09dcf6a9f1d58692ab0fea543d7a2c2c[m
+Merge: def4f45 91a2084
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Aug 19 14:45:19 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme into main
+
+[33mcommit def4f45214a945fd7a45ef8a21a2887072f6fb2b[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Aug 19 14:44:07 2021 +0200
+
+    modif contact.css
+
+[33mcommit 5141c593f58705cc6829818def2d50e063c37ba7[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Aug 19 14:05:38 2021 +0200
+
+    modification dans page equipe et contact
+
+[33mcommit 91a2084b6fd75f310df51cc194763e5eeab59c46[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Aug 19 13:54:10 2021 +0200
+
+    azerty
+
+[33mcommit cfcf2edc7701b773e2b7e163c6c95c0d6f5aaeae[m
+Merge: c66a6e9 50131c5
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 16:46:03 2021 +0200
+
+    Merge branch 'tiavina' into main
+
+[33mcommit 50131c59983e31133471191b6b2caf08ac1ad0bc[m[33m ([m[1;31morigin/tiavina[m[33m)[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 16:45:06 2021 +0200
+
+    modification dans front-page , style.css et equipe.css
+
+[33mcommit 3b32d49b9e7276923c369c145457564c3b1e6dde[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 16:15:23 2021 +0200
+
+    footer
+
+[33mcommit e9ef711038511377c4e22cdb8de32fbc9b9c04e0[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 16:10:32 2021 +0200
+
+    footer
+
+[33mcommit 4fe27f9ce8869e101579aca5d674fb15cc1a5014[m
+Merge: 76bdeb9 c356a94
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 15:06:27 2021 +0200
+
+    Merge branch 'adrien'
+
+[33mcommit c356a9420ee5fe495827673379d756ff75509a28[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 15:06:04 2021 +0200
+
+    page_newsletter
+
+[33mcommit 149fc5cd19b79eb8a2a3e838e35233a12839b46e[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 14:26:36 2021 +0200
+
+    ts
+
+[33mcommit c66a6e9bc584e7bce8b58bf3c2ad1bb393422a79[m
+Merge: 1d674bb 76bdeb9
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 12:03:03 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme into main
+
+[33mcommit 76bdeb9780ec1dd1c5ec3b981e19010291085031[m
+Merge: c59f792 da550c2
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 12:01:43 2021 +0200
+
+    Merge branch 'adrien'
+
+[33mcommit da550c262454fc7e2de4660f12ffb55aa68e1d5c[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 12:01:23 2021 +0200
+
+    mail
+
+[33mcommit 1d674bb2938438e5c67657665e494abe93385e8f[m
+Merge: 1547129 c59f792
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 11:38:04 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme into main
+
+[33mcommit 154712962a4e99bb5f993ce612000fbfc49d7b3e[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 11:37:20 2021 +0200
+
+    mise à jour
+
+[33mcommit c59f792177937dd732bf78fdd971cdcafca543c0[m
+Merge: a5fa794 7b69707
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 11:29:48 2021 +0200
+
+    changing
+
+[33mcommit 7b69707f8c20ee437f882e236e36cd22d6edcecb[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 11:25:13 2021 +0200
+
+    conflit de merge
+
+[33mcommit a5fa794550d832a018bff97f1773702adc1a4664[m
+Merge: 7bbdb6c 5d7da3f
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 11:12:10 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme
+
+[33mcommit b54440d76d86eebbdedbc0a21fa652d64d9c4da7[m
+Merge: ccec92f 5d7da3f
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 11:08:24 2021 +0200
+
+    accept incoming change
+
+[33mcommit ccec92fa91c5060fc90e62f56cb36d7549c962cb[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 11:05:37 2021 +0200
+
+    telechargement d'autres modif
+
+[33mcommit bdb24d7e8453952f3d588f67671adee352232f04[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Aug 17 11:05:08 2021 +0200
+
+    telechargement d'autres modif
+
+[33mcommit 7bbdb6ce6d14c3bd98ff362b845c16ec92ee6864[m
+Merge: 0f7324f f75c4c9
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 11:02:19 2021 +0200
+
+    Merge branch 'sonia'
+
+[33mcommit f75c4c9df70a72f9e6b49db728b70372b5c31275[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 11:01:21 2021 +0200
+
+    five
+
+[33mcommit 5d7da3f069b2f8387845b21cbe3228285d119939[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 10:59:25 2021 +0200
+
+    debug
+
+[33mcommit 8fedad013b42fa4ffb73c3bb66a91d26ac726439[m
+Merge: e85f955 e6633ac
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 10:57:58 2021 +0200
+
+    conflict
+
+[33mcommit 0f7324f00e68fbf2fa0ecab66a8a9eba8341d3f1[m
+Merge: e6633ac 22870d7
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 10:55:37 2021 +0200
+
+    Merge branch 'sonia'
+
+[33mcommit e85f955c74f7e09eb326032f4bf8bf5048b62fda[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Aug 17 10:55:32 2021 +0200
+
+    main.css
+
+[33mcommit e6633ac2128558c9031106ac0661eaf1142ad395[m
+Merge: 055391e 5f3c43a
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 10:52:49 2021 +0200
+
+    three
+
+[33mcommit 22870d750075bb28e0233735bc32a14c191ec8f5[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Tue Aug 17 10:45:53 2021 +0200
+
+    two
+
+[33mcommit 5f3c43adfb613cbbb11eebe1ce00e85240d84a3a[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Mon Aug 16 16:50:06 2021 +0200
+
+    changement de place de la page contact et faites-nous confiance
+
+[33mcommit c89cfbeb9a3d06f52e81723f5ce355ec97fb1dd8[m
+Merge: 9ecc827 b639868
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Mon Aug 16 16:41:45 2021 +0200
+
+    mrge de page contact et autre
+
+[33mcommit b639868838a80aaa5d46e4bb82157054eeab456a[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Mon Aug 16 16:37:26 2021 +0200
+
+    ajout de la page contact
+
+[33mcommit 9ecc827132c995dc71db0dc7d79f94a45f7a6025[m[33m ([m[1;31morigin/adam[m[33m)[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Mon Aug 16 16:21:44 2021 +0200
+
+    carte
+
+[33mcommit 055391edda731791b6417ebf4536b5e161f22e78[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 16:03:59 2021 +0200
+
+    correction milieu
+
+[33mcommit da368b6101eaa9aa6b4d9669618acb5ef64c4505[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 15:41:22 2021 +0200
+
+    changements
+
+[33mcommit 2cc33fa904f1b4fbe616cff0f13aae7d95de8999[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 15:34:54 2021 +0200
+
+    correction
+
+[33mcommit 0a7be3c079e5c3a71bf9074d678469b8f9d2cf53[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 15:14:28 2021 +0200
+
+    correct
+
+[33mcommit 7f43377d5b418931159ea816336ff00f676fff05[m
+Merge: 730c2c4 5607c8b
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 15:09:58 2021 +0200
+
+    debbug11
+
+[33mcommit 730c2c4a55a3a7cdb5455c3ae377485816daecbc[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 15:01:50 2021 +0200
+
+    titre recentré
+
+[33mcommit a643e63a14ab4bdaccf7f809ee53f046c9c51c63[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 14:58:27 2021 +0200
+
+    face1
+
+[33mcommit 5607c8b0979b1f3b75c0d13bc79e9c597b4c41bd[m
+Merge: a34d710 332fb5a
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 14:47:24 2021 +0200
+
+    face
+
+[33mcommit a34d710b039021d17d17e82e7838ccf5627e3c51[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 14:45:49 2021 +0200
+
+    debbug
+
+[33mcommit 332fb5a614fce1def3eb7eaf11690d043b4dadda[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Mon Aug 16 14:38:34 2021 +0200
+
+    toujours des problemes
+
+[33mcommit 6d16bdc397130aa5301c150bd29db8ddab8a6283[m
+Merge: 5a76fe3 7c24d9c
+Author: acs <a.bederiat@codeur.online>
+Date:   Mon Aug 16 14:29:28 2021 +0200
+
+    résolution de problemes
+
+[33mcommit 5a76fe3e235f0b54b606c91307322c5193275325[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Mon Aug 16 14:25:34 2021 +0200
+
+    résolution de problemes
+
+[33mcommit 7c24d9caaee5da5c9a6a596d86ca573639df2edf[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 14:05:58 2021 +0200
+
+    soulign
+
+[33mcommit 32343660b7c99c9559c55df318f846a507fc11e1[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 14:02:46 2021 +0200
+
+    soulignement nav
+
+[33mcommit 2ca17b302fec6141c5fd0fc46dec9b01cbeafbe9[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 11:31:31 2021 +0200
+
+    debug sticky in progress
+
+[33mcommit 223bbc7523c910a47c8adc3074dd3402be09846b[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 10:50:30 2021 +0200
+
+    debug ad 2
+
+[33mcommit bef7e6d0e495632f8ee62784c31f8053e3ab0c56[m
+Merge: 9b2784f 60d0a23
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 10:50:06 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme
+
+[33mcommit 9b2784fd3cc79237f14547b998b12756a7e89974[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Aug 16 10:49:53 2021 +0200
+
+    debug ad
+
+[33mcommit 60d0a2325d8eea92a7c75620ce3a361354dfc395[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 10:45:44 2021 +0200
+
+    dbbug
+
+[33mcommit f0a0251f871cc614ed3b44befab395920273935a[m
+Merge: b1a6a7c 3b4aed9
+Author: sonia <s.rolland@codeur.online>
+Date:   Mon Aug 16 10:43:04 2021 +0200
+
+    debbug
+
+[33mcommit 3b4aed9c4b21bdd545151ec4584874f1ed040950[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 16:23:26 2021 +0200
+
+    avant les vacances
+
+[33mcommit 095758a7223e05f09b53242a005cee296852863f[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 16:19:04 2021 +0200
+
+    changement de fichier css sur la page équipe
+
+[33mcommit 726a5e10b9f4d5c6fb0705fd93b1cd3a59a5cf12[m
+Merge: aa8f30d 086a89c
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 16:16:54 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme into main
+
+[33mcommit aa8f30d7e168b7cd5302d0dfdce676c12e585feb[m
+Merge: 6ce7ad4 ba2077d
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 16:15:18 2021 +0200
+
+    modification du css
+
+[33mcommit ba2077de329c0a46365d77d1aeb202089222cf50[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 16:07:13 2021 +0200
+
+    ajout du equipe.css
+
+[33mcommit b1a6a7ce461e3aeb68cffd3a37091ff26e0a473d[m
+Merge: ee1b8da 7780107
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 16:03:32 2021 +0200
+
+    Merge branch 'sonia'
+
+[33mcommit 7780107b9b06ad8f32f415042c4628637f05f57c[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 16:03:01 2021 +0200
+
+    maj
+
+[33mcommit ee1b8dae623f7cc8befd7bca47f047eb3b27f7f1[m
+Merge: 6ce7ad4 5f779d3
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 16:01:44 2021 +0200
+
+    maj
+
+[33mcommit 086a89c08e1be8f6630799bb1bc1b14a9038df86[m
+Merge: 344638a 6ce7ad4
+Author: acs <a.bederiat@codeur.online>
+Date:   Fri Jul 30 15:59:53 2021 +0200
+
+    resoulution de conflit
+
+[33mcommit 5f779d3590e1c8d4c838191dceb6218dd4d1b084[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 15:56:06 2021 +0200
+
+    maj theme
+
+[33mcommit 6ce7ad4975ef98aedd39dde74d5e9a12491ac690[m
+Merge: 4d8f910 db14cca
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 15:51:56 2021 +0200
+
+    merging
+
+[33mcommit 4d8f9100843265d3e8514a2417b9c1122b71bb3f[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 15:46:06 2021 +0200
+
+    ajout dans le css
+
+[33mcommit 344638a48179c441793d7a0c15c6a63812868a80[m
+Merge: a60eeb5 db14cca
+Author: acs <a.bederiat@codeur.online>
+Date:   Fri Jul 30 15:43:42 2021 +0200
+
+    Merge branch 'main' of https://github.com/shape-agency/shape-theme
+
+[33mcommit a60eeb5328fd1995738f24182c4f67299ce847be[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Fri Jul 30 15:43:30 2021 +0200
+
+    suite du projet
+
+[33mcommit db14cca1405d90c50797e6ceeda84db5846bec99[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Fri Jul 30 15:35:08 2021 +0200
+
+    sticky ok
+
+[33mcommit d9c66bb9a5bf297ee93426401f32818de8d95c12[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Fri Jul 30 15:30:54 2021 +0200
+
+    modification en css
+
+[33mcommit 69267b127871e41dc2c74a03896bdb2c4139cc1d[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 15:13:19 2021 +0200
+
+    esthétique
+
+[33mcommit 9a4c57583989067e97a521734e4164d220c38f2f[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Fri Jul 30 14:59:33 2021 +0200
+
+    in progress stickly
+
+[33mcommit f0480d8108335e31167126116e60b6ada41fda5b[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Fri Jul 30 14:33:15 2021 +0200
+
+    anim
+
+[33mcommit d80e92c411c9301fb18ac6cd08f4a8835d4be60e[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Fri Jul 30 14:03:57 2021 +0200
+
+    burger
+
+[33mcommit 78f2fbf39b822bbacc1063aab609ac3160850cbf[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Fri Jul 30 11:08:11 2021 +0200
+
+    style
+
+[33mcommit d48b587d6d20e44eb39b5ac25e6be2bb0329f873[m
+Author: sonia <s.rolland@codeur.online>
+Date:   Thu Jul 29 16:54:06 2021 +0200
+
+    first
+
+[33mcommit c3d458c8d8be1fe9b91cff9742c7581ba0e772e6[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 29 16:43:41 2021 +0200
+
+    burger with script hide block onclick
+
+[33mcommit aedc0b462c575c6dba940417a03867b1cc208265[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 29 16:33:32 2021 +0200
+
+    burger with media querry
+
+[33mcommit 35f298ad069ce63d051dbb843bc67a6271e80c5b[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 29 16:12:24 2021 +0200
+
+    favicon
+
+[33mcommit 5f918ab4b558495dec81447aefb6c282221850df[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 29 16:10:29 2021 +0200
+
+    bandeau black
+
+[33mcommit 2d290414a2aa1728d0011ec6ae40fa0648f660aa[m
+Merge: 463600a 36ec3e4
+Author: acs <a.bederiat@codeur.online>
+Date:   Thu Jul 29 16:00:13 2021 +0200
+
+    Merge branch 'main' of https://github.com/shape-agency/shape-theme
+
+[33mcommit 463600a583a34a4245003916cef672408f144985[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Thu Jul 29 15:59:48 2021 +0200
+
+    landing page
+
+[33mcommit 619d16893f4a267a8c0e3ecbfa7d80de40e9ec6e[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 29 15:37:12 2021 +0200
+
+    add cards of the team
+
+[33mcommit 9e91a54bba54df1ed13b221cba2d06291caf0fbf[m
+Merge: bb0de09 5f36e1d
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 22 16:53:45 2021 +0200
+
+    merge
+
+[33mcommit bb0de096ddfe0e98786853d9862f31eb82d7bdd6[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 22 16:45:52 2021 +0200
+
+    add equipe
+
+[33mcommit 5f36e1d482abd5dd758d4629c298403a43556eb2[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 22 15:41:17 2021 +0200
+
+    add somme modification in front-page
+
+[33mcommit 36ec3e4bb50163e67eeb4b3cc9f65c6ce05abcba[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 22 15:37:03 2021 +0200
+
+    header3
+
+[33mcommit 598b18fe370524c1b649d46a86d16eb2042e5834[m
+Merge: 7cf715f 0f1bd47
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 22 14:53:53 2021 +0200
+
+    change some files
+
+[33mcommit 7cf715f3bffd89aaeeafc572106c1b3dc90d96ef[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Thu Jul 22 14:50:15 2021 +0200
+
+    first commit
+
+[33mcommit 1b86eb632ae460d8cce2233ed60218353147aec3[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 22 13:49:54 2021 +0200
+
+    create header
+
+[33mcommit 0f1bd47967c1ba540aee5e0e0b25d208eabd9758[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 22 13:43:01 2021 +0200
+
+    css includes
+
+[33mcommit d1ede172226a22d7134a55286aba479238c9a24c[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Thu Jul 22 13:37:57 2021 +0200
+
+    null
+
+[33mcommit cb44bcc5b0afbee9ab6ebb0c0be82728edc877fa[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 16:50:01 2021 +0200
+
+    front page avancement
+
+[33mcommit e849a9dbddc97022ef84829282b4e686c2ad18eb[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 16:03:59 2021 +0200
+
+    front-page
+
+[33mcommit 5878f2ad9cde58c25c69000ca85bf9f60cf6b211[m
+Merge: 3660ce6 05f7eb6
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 15:46:20 2021 +0200
+
+    conflict
+
+[33mcommit 3660ce65348a33044138cd3b26bc1dfeded20f3a[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 15:44:56 2021 +0200
+
+    function
+
+[33mcommit 05f7eb6b87d445dd44be74eca7ce58fb79e47386[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Jul 20 15:37:27 2021 +0200
+
+    assets
+
+[33mcommit a3142a0b7f320133878ae3faf34ac6930b8f4c14[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Jul 20 15:28:04 2021 +0200
+
+    header-title
+
+[33mcommit 298d777b0fc9d23889c148370f5585e6111b27d3[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 15:00:07 2021 +0200
+
+    front-page
+
+[33mcommit 382a7ed2c91e49d22dfb09db7d8a9a57f0362543[m
+Merge: 5bc7b29 045654b
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Jul 20 14:59:03 2021 +0200
+
+    Merge branch 'main' of github.com:shape-agency/shape-theme into main
+
+[33mcommit 5bc7b29f0eaf04b9d0a0bc17788eb8a8b4613b39[m
+Author: tiavinaralandison@gmail.com <tiavinaralandison@gmail.com>
+Date:   Tue Jul 20 14:55:18 2021 +0200
+
+    ajout de functions.php
+
+[33mcommit 045654bf5d5937b3e16c199deddc2d25b53266df[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Jul 20 14:51:25 2021 +0200
+
+    header footer
+
+[33mcommit 1d293319aec56b9f97080b8a3c710683d79dac72[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 14:45:43 2021 +0200
+
+    include
+
+[33mcommit ec7f4267fbc5cadccdee2b4932d970a760695395[m
+Author: acs <a.bederiat@codeur.online>
+Date:   Tue Jul 20 14:44:47 2021 +0200
+
+    front-page
+
+[33mcommit b912377cf6f7bdc9309f1922ab5d6c7d684edd3a[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Jul 20 14:36:05 2021 +0200
+
+    init theme2
+
+[33mcommit 404b984d7665f5de4482b17b20d9cbcb3819b2e6[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Tue Jul 20 14:35:03 2021 +0200
+
+    init theme
+
+[33mcommit b16518d5586eebf5b45d0896c49b1b59db74e67e[m
+Author: Adrien-Ray <a.raymond@codeur.online>
+Date:   Mon Jul 19 16:42:35 2021 +0200
+
+    first commit
