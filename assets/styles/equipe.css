@@ -4,6 +4,10 @@
     padding-bottom: 30px;
 }
 
+#equipe-h2{
+    display: block;
+}
+
 h2{
     color: white;
     text-align: center;
@@ -16,7 +20,7 @@ h2{
     flex-wrap: wrap-reverse;
 }
 
-.equipe_card_membre{
+.equipe_card_membre {
     text-align: center;
     color: white;
     margin-top: 6%;
@@ -32,4 +36,12 @@ h2{
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.container-fluid, .container, .equipe ,.carte {
+    border: solid red;
+}
+
+.contact_para-mobile, .contact , .equipe_card {
+    border: solid green;
 }

@@ -1,7 +1,9 @@
 <?php get_header();?>
+
+
     <div class="haut-de-page">
-       <div class="image-1">
-        <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
+        <div class="image-1">
+            <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
             <div class="article-haut">
                 <h1 class="titre_shape">SHAPE</h1>
@@ -11,7 +13,7 @@
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
-        <h2 class="nos-services" href="#">NOS SERVICES</h2>
+            <h2 class="nos-services" href="#">NOS SERVICES</h2>
         </div>
     </div>
     <div class="carte">
@@ -19,47 +21,49 @@
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
             <h2 class="titre-carte">IDENTITÉ VISUELLE</h2>
             <p class="para-carte">Ensemble, bâtissons la communication visuelle de votre entreprise, elle a pour but de représenter la marque sur l'ensemble de ses supports de communication (logo, couleurs, typographies, iconographie...)</p>
-            </div>
+        </div>
             
         <div class="carte2">
-        <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
+            <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
             <h2 class="titre-carte"> DÉVELOPPEMENT</h2>
             <p class="para-carte">Nous concevons pour vous un site internet dont le but est de générer du trafic des propects. Nos développeurs et web designer créent des interfaces utilisateur uniques et modernes pour la croissance de votre entreprise</p>
         </div>
         <div class="carte3">
-        <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
+            <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
         </div>
         
     </div>
-    
+   
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
-        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-        <div class="trait-faites-nous-confiance"></div>
+            <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
+            <div class="trait-faites-nous-confiance"></div>
         </div>
     </div>
-    <div class="centre">
-            <div class="article-centre">
-                <h3>Donnez forme à votre projet.</h3>
-                <p>Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous sera transmis. SHAPE ne fait pas de copier/coller:Nous ne proposons que des stratégies web personnalisées à nos clients.</p>
-                   <button id="button">Je souhaite un devis</button>
-            </div>
-            <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
-    </div>
-    </div>
 
+    <div class="centre">
+        <div class="article-centre">
+            <h3>Donnez forme à votre projet.</h3>
+            <p> 
+                Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous sera transmis. SHAPE ne fait pas de copier/coller:Nous ne proposons que des stratégies web personnalisées à nos clients 
+            </p>
+            <button id="button">Je souhaite un devis</button>
+        </div>
+        <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
     </div>
 
     <div class="container ">
-        <h2>CONTACT</h2>
+        <h2 id="contact-h2">CONTACT</h2>
+
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
             <p 
              class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
             </p>
         </div>
+
         <div class="contact">
             <div class="contact_form">
                 <form action="form.php" method="post">
@@ -94,11 +98,13 @@
                 </div>
            </div> 
         </div>
-    
-    <div id="equipe">
+    </div>
+
+    <div id="equipe" style="display:none">
         <div class="container">
-            <h2>NOTRE ÉQUIPE</h2>
-            <div class="equipe_card container">
+            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+
+            <div class="equipe_card ">
                 <div class="equipe_card_membre">
                     <span>KARINA</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br> <br>
@@ -120,5 +126,22 @@
             </p>
         </div>
     </div>
+    <script>
+        const ekip = document.getElementById('equipe');
+        const button = document.getElementById('contact_para-2_bouton');
+        var ie = 0;
+        button.addEventListener('click', toogleteam);
+        function toogleteam() {
+            if (ie == 0) {
+                ie++;
+                ekip.style.display = 'block';
+                console.log(ie);
+            }else{
+                ie = 0;
+                ekip.style.display = 'none';
+                console.log(ie);
+            }
+        }
+    </script>
 
 <?php get_footer(); ?>

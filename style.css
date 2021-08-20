@@ -7,13 +7,11 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-
 body{
     background-color: black;
 }
 
 .haut-de-page{
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
@@ -81,6 +79,8 @@ p{
     background-color:black;
     height: 50vw;
     width: 100vw;
+    /* height: 16vw;*/
+    width: 100vw; 
     flex-wrap: wrap;
 }
 
