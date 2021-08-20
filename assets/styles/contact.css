@@ -5,31 +5,36 @@
     flex-wrap: wrap;
     margin-top: 5%;
     margin-bottom: 4%;
-
 }
 
 #contact-h2{
-    display: block;
+    margin: auto;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+#contact-h2-parent{
+    text-align: center;
 }
 
 .contact_form {
-    /* margin-top: 2%; */
     margin-bottom: 6%;
 }
 
 #name {
+    margin-top: 40px;
     width: 400px;
     height: 70px;
 }
 
 #mail {
-    margin-top: 15px;
+    margin-top: 30px;
     width: 400px;
     height: 70px;
 }
 
 #msg {
-    margin-top: 15px;
+    margin-top: 30px;
     width: 400px;
     height: 200px;
 }
@@ -41,7 +46,7 @@ button {
     background-color: black ;
     color: #c09628;
     border: solid;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -56,12 +61,17 @@ button {
 button:hover {
     background-color: #c09628;
     color: white;
-    background-color: #c09628 ;
+    border-color: #c09628 ;
 }
 
 .contact_para {
     margin-top: 2%;
     margin-bottom: 6%;
+}
+
+.contact_para-h3 {
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .contact_para-1_p {
@@ -78,8 +88,14 @@ button:hover {
     color: white;
     border: solid;
     border-style: white 0.5px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 8px;
+}
+
+#contact_para-2_bouton:hover {
+    background-color: #c09628;
+    color: white;
+    border-color: #c09628 ;
 }
 
 .contact_para-mobile{
