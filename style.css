@@ -28,6 +28,9 @@ body{
     max-width: 1000px;
     
 }
+.image-2{
+    max-width: 1000px; 
+}
 
 .article-haut{
     max-width: 800px;
@@ -45,6 +48,11 @@ body{
     max-width: 1000px;
     
     /* padding-right: 4vw; */
+}
+.div_image_2{
+    max-width: 1000px;
+    /* text-align: right;
+    width: auto; */
 }
 
 
@@ -80,7 +88,6 @@ p{
     height: 50vw;
     width: 100vw;
     /* height: 16vw;*/
-    width: 100vw; 
     flex-wrap: wrap;
 }
 
@@ -173,22 +180,17 @@ h2:hover:after {
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.centre .article-centre{
+.article-centre{
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
-    margin-left: 10%;
-    margin-top:5%;
+    width: 49vh;
+    margin-left: 200px;
+    margin-top: 50px;
 }
-
-
-.image-2{
-    width: 50%;
-    height: 50%; 
-}
-
 h3{
     margin-top: 25%;
     color: #c09628;

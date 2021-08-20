@@ -51,8 +51,10 @@
             </p>
             <button id="button">Je souhaite un devis</button>
         </div>
+        <div class="div_image_2">
         <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
         </div>
+    </div>
     
 
     <div class="container ">
