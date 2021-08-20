@@ -5,13 +5,29 @@
 }
 
 #equipe-h2{
-    display: block;
+    margin: auto;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+#equipe-h2-parent{
+    text-align: center;
 }
 
 h2{
     color: white;
     text-align: center;
     margin-top: 50px;
+}
+
+#equipe-h2:after{
+    background: transparent !important;
+    transition: width .5s ease, background-color .5s ease !important;
+}
+
+#equipe-h2:hover:after{
+    width: 90%;
+    background: white !important;
 }
 .equipe_card{
     display: flex;
@@ -38,10 +54,3 @@ h2{
     margin-right: 15%;
 }
 
-.container-fluid, .container, .equipe ,.carte {
-    border: solid red;
-}
-
-.contact_para-mobile, .contact , .equipe_card {
-    border: solid green;
-}

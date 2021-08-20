@@ -56,7 +56,10 @@
     
 
     <div class="container ">
-        <h2 id="contact-h2">CONTACT</h2>
+
+        <div id="contact-h2-parent">
+            <h2 id="contact-h2">CONTACT</h2>
+        </div>
 
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
@@ -88,13 +91,13 @@
 
             <div class="contact_para"> 
                 <div class="contact_para-1">
-                    <h3>Je souhaite vous contacter</h3>
+                    <h3 class="contact_para-h3">Je souhaite vous contacter</h3>
                     <p 
                      class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
                     </p>
                 </div>
                 <div class="contact_para-2">
-                    <h3>Qui se cache derrière SHAPE ?</h3>
+                    <h3 class="contact_para-h3">Qui se cache derrière SHAPE ?</h3>
                     <button id="contact_para-2_bouton">Découvrir notre équipe</button>
                 </div>
            </div> 
@@ -103,7 +106,9 @@
 
     <div id="equipe" style="display:none">
         <div class="container">
-            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            <div id="equipe-h2-parent">
+                <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            </div>
 
             <div class="equipe_card ">
                 <div class="equipe_card_membre">
