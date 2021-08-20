@@ -55,7 +55,10 @@
     </div>
 
     <div class="container ">
-        <h2 id="contact-h2">CONTACT</h2>
+
+        <div id="contact-h2-parent">
+            <h2 id="contact-h2">CONTACT</h2>
+        </div>
 
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
@@ -102,7 +105,9 @@
 
     <div id="equipe" style="display:none">
         <div class="container">
-            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            <div id="equipe-h2-parent">
+                <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            </div>
 
             <div class="equipe_card ">
                 <div class="equipe_card_membre">
