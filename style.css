@@ -85,7 +85,7 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     background-color:black;
-    height: 50vw;
+    height: auto;
     width: 100vw;
     /* height: 16vw;*/
     flex-wrap: wrap;
@@ -188,7 +188,7 @@ h2:hover:after {
     display: flex;
     flex-direction: column;
     width: 49vh;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 50px;
 }
 h3{
