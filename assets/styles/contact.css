@@ -109,6 +109,10 @@ button:hover {
     font-size: 1.5em;
   }
 
+input, textarea{
+    max-width: 90vw;
+}
+
 @media screen and (max-width: 985px){
     .contact_para-1 {
         display: flex;

@@ -33,12 +33,19 @@ body{
     font-size: 150px;
 }
 
+
+@media screen and (max-width: 50rem){
+    .titre_shape{
+        font-size: 100px;
+        }
+    }
+
 .div-img{ /* cible les 2 img stylé du bord */
     width: 500px;
     max-width: 100%;
 }
 .div-img-2{ /* ne cible que la seconde */
-    min-width:500px ;
+    min-width: 200px;
 }
 
 
@@ -158,27 +165,35 @@ h2:hover:after {
   background: #c09628;
 }
 
+
+
+
+
+
 .centre{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 1rem;
     margin-bottom: 5rem;
 }
 
 .centre .article-centre{
-    display: flex;
-    flex-direction: column;
-    width: 49vh;
-    margin-left: 15%;
-    margin-top: 50px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .centre .div_image_2{
     text-align: right;
-    flex: 2;
+    margin-left: auto;
 }
+
+
+
+
+
 
 h3{
     margin-top: 25%;
@@ -202,12 +217,10 @@ h3{
 }
 
 .faites-nous-confiance{
-
+    display: block;
     color: white;
     font-size: 3rem;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 35%;
 }
 
 #button{
