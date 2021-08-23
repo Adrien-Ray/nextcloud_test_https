@@ -32,7 +32,7 @@ body{
     max-width: 100%;
 }
 .div-img-2{ /* ne cible que la seconde */
-
+    min-width:500px ;
 }
 
 .article-haut{
@@ -40,10 +40,6 @@ body{
 }
 .image-1{
     
-}
-.div_image_2{
-    width: 100%;
-    text-align: right;
 }
 
 
@@ -135,10 +131,6 @@ p{
 
 /*milieu-de-page*/
 
-body{
-    background-color: black;
-}
-
 h2{display:inline-block;min-width:50px;}
 
 h2{
@@ -169,19 +161,25 @@ h2:hover:after {
 .centre{
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
-.article-centre{
+.centre .article-centre{
     display: flex;
     flex-direction: column;
     width: 49vh;
     margin-left: 15%;
     margin-top: 50px;
 }
+
+.centre .div_image_2{
+    text-align: right;
+    flex: 2;
+}
+
 h3{
     margin-top: 25%;
     color: #c09628;

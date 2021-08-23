@@ -39,7 +39,9 @@
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
             <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-            <div class="trait-faites-nous-confiance"></div>
+            <div class="trait-faites-nous-confiance">
+
+            </div>
         </div>
     </div>
 
@@ -52,7 +54,7 @@
             <button id="button">Je souhaite un devis</button>
         </div>
         <div class="div_image_2">
-        <img class="div-img div-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+            <img class="div-img div-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
         </div>
     </div>
     
