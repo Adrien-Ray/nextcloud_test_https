@@ -3,7 +3,7 @@
 
     <div class="haut-de-page">
         <div class="image-1">
-            <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
+            <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
             <div class="article-haut">
                 <h1 class="titre_shape">SHAPE</h1>
@@ -52,7 +52,7 @@
             <button id="button">Je souhaite un devis</button>
         </div>
         <div class="div_image_2">
-        <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+        <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
         </div>
     </div>
     
