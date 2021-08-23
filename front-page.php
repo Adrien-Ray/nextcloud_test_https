@@ -5,11 +5,11 @@
         <div class="image-1">
             <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
-            <div class="article-haut">
-                <h1 class="titre_shape">SHAPE</h1>
-                <h5 id="sous-titre">Vos projets prennent forme.</h5>
-                <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
-            </div>
+        <div class="article-haut">
+            <h1 class="titre_shape">SHAPE</h1>
+            <h5 id="sous-titre">Vos projets prennent forme.</h5>
+            <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
+        </div>
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
@@ -52,7 +52,7 @@
             <button id="button">Je souhaite un devis</button>
         </div>
         <div class="div_image_2">
-        <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+        <img class="div-img div-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
         </div>
     </div>
     

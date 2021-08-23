@@ -11,6 +11,9 @@ body{
     background-color: black;
 }
 
+
+/* PARTIE HAUT ADAM RÉVISER AD */
+
 .haut-de-page{
     display: flex;
     flex-direction: row;
@@ -24,31 +27,23 @@ body{
     font-size: 150px;
 }
 
-.div-img{
-    max-width: 1000px;
+.div-img{ /* cible les 2 img stylé du bord */
+    width: 500px;
+    max-width: 100%;
+}
+.div-img-2{ /* ne cible que la seconde */
+
 }
 
 .article-haut{
     max-width: 800px;
-    /* border: red 3px solid; */
-    /* padding-left: 4vw; */
-    /* padding-right: 4vw; */
 }
 .image-1{
-    /* height: 45rem; */
-    /* object-fit: scale-down; */
-    /* margin: 0px; */
-    /* width: auto; */
-    /* padding-right: 8rem; */
-    /* border: red solid 2px; */
-    max-width: 1000px;
     
-    /* padding-right: 4vw; */
 }
 .div_image_2{
-    max-width: 1000px;
-    /* text-align: right;
-    width: auto; */
+    width: 100%;
+    text-align: right;
 }
 
 
@@ -207,10 +202,6 @@ h3{
     margin-right:50%;
     
 }
-.para_shape{
-    margin-right: 200px;
-}
-
 
 .faites-nous-confiance{
 
