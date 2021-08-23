@@ -17,10 +17,16 @@ body{
 .haut-de-page{
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
+    /* flex-grow: 2; */
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.haut-de-page .image-1{
+}
+.haut-de-page .article-haut{
+    max-width: 500px;
+    margin: auto;
 }
 .titre_shape{
     word-break: break-all;
@@ -35,12 +41,6 @@ body{
     min-width:500px ;
 }
 
-.article-haut{
-    max-width: 800px;
-}
-.image-1{
-    
-}
 
 
 .titre-haut-carte{
