@@ -59,17 +59,13 @@
     </div>
     
 
+
+
+
     <div class="container ">
 
         <div id="contact-h2-parent">
             <h2 id="contact-h2">CONTACT</h2>
-        </div>
-
-        <div class="contact_para-mobile">
-            <h3>Je souhaite vous contacter</h3>
-            <p 
-             class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
-            </p>
         </div>
 
         <div class="contact">
