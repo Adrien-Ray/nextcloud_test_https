@@ -64,12 +64,14 @@ h1{
 
 #sous-titre{
     color: #c09628;
-    padding-bottom: 100px ;
+    padding: 3rem 0;
+    padding-top: 0.5rem;
     font-size: 32px;
 }
 
 p{
     color: white;
+    font-size: 1.2rem;
 }
 
 
@@ -89,17 +91,28 @@ p{
     background-color: black;
 } */
 
-.carte1, .carte2, .carte3{
-    padding: 3vw;
+.carte__child{
+    padding: 2rem;
     background-color: white;
     width: 24rem;
     height: 36rem;
     padding-bottom: 0rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    margin-bottom: 1rem;
 }
-
+.carte__child h2{
+    text-align: left;
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+.carte3{
+    background-color: #c09628;
+}
+.carte3 .titre-carte ,.carte3 .para-carte{
+    color: white !important;
+}
 .img-carte{
     text-align: center;
     height: 4rem;
@@ -166,7 +179,9 @@ h2:hover:after {
 }
 
 
-
+.carte3 h2:hover:after{
+    background: white;
+}
 
 
 
@@ -183,6 +198,14 @@ h2:hover:after {
 .centre .article-centre{
     max-width: 500px;
     margin: auto;
+}
+
+.article-centre p{
+    margin: 3rem 0;
+}
+.article-centre h3{
+    border: 1px solid red;
+    margin-left: 0;
 }
 
 .centre .div_image_2{
@@ -247,11 +270,5 @@ h3{
 
 .para-carte{
     color: black;
-}
-
-@media screen and (max-width: 50rem){
-.carte1, .carte2, .carte3{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    }
+    font-size: 1.2rem;
 }

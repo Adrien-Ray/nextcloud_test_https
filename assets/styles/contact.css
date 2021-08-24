@@ -76,7 +76,7 @@ button:hover {
 
 .contact_para-1_p {
     display: flex;
-    width: 400px;
+    width: auto;
     height: 120px;
     padding-top: 15px;
 }
