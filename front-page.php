@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-    <div class="haut-de-page">
+    <div class="haut-de-page" id="lagence">
         <div class="image-1">
             <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
@@ -17,7 +17,7 @@
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
 
-            <h2 class="nos-services" href="#">NOS SERVICES</h2>
+            <h2 class="nos-services" id="services" href="#">NOS SERVICES</h2>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             <?php endwhile; wp_reset_query(); ?>
 
 
-
+<!-- 
         <div class="carte1 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
             <h2 class="titre-carte">IDENTITÉ-VISUELLE</h2>
@@ -49,8 +49,13 @@
         <div class="carte3 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
+<<<<<<< HEAD
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads </p>
         </div>
+=======
+            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
+        </div> -->
+>>>>>>> c3c4f4bdb09cd6a5a07dffcd531d97073db92ad5
         
     </div>
    
