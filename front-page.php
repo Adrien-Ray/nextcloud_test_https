@@ -34,7 +34,7 @@
             <?php endwhile; wp_reset_query(); ?>
 
 
-
+<!-- 
         <div class="carte1 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
             <h2 class="titre-carte">IDENTITÉ-VISUELLE</h2>
@@ -50,7 +50,7 @@
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
-        </div>
+        </div> -->
         
     </div>
    
