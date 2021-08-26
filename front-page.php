@@ -57,13 +57,13 @@
             
         <div class="carte2 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
-            <h2 class="titre-carte"> DÉVELOPPEMENT</h2>
+            <h2 class="titre-carte">DÉVELOPPEMENT</h2>
             <p class="para-carte">Nous concevons pour vous un site internet dont le but est de générer du trafic des propects. Nos développeurs et web designer créent des interfaces utilisateur uniques et modernes pour la croissance de votre entreprise</p>
         </div>
         <div class="carte3 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
-            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
+            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads </p>
         </div> -->
         
     </div>
@@ -128,6 +128,13 @@
             <h2 id="contact-h2">CONTACT</h2>
         </div>
 
+        <div class="contact_para-mobile" >
+            <h3 class="contact_para-mobile">Je souhaite vous contacter</h3>
+            <p 
+             class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
+            </p>
+        </div>
+
         <div class="contact">
             <div class="contact_form">
                 <form action="form.php" method="post">
@@ -163,6 +170,7 @@
            </div> 
         </div>
     </div>
+
 
     <div id="equipe" style="display:none">
         <div class="container">
