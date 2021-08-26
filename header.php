@@ -11,7 +11,7 @@
 <body>
       <header id="header">
             <div class="logo header__child">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt="">
+                  <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt=""></a>
             </div>
             <div class="burger header__child" id="burger">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
