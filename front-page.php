@@ -49,13 +49,8 @@
         <div class="carte3 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
-<<<<<<< HEAD
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads </p>
-        </div>
-=======
-            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
         </div> -->
->>>>>>> c3c4f4bdb09cd6a5a07dffcd531d97073db92ad5
         
     </div>
    
