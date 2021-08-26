@@ -1,4 +1,6 @@
-<?php /* 
+<?php 
+get_header();
+/* 
 if (isset($_POST['user_name']) && !empty($_POST['user_name']) && isset($_POST['user_mail']) && !empty($_POST['user_mail']) && isset($_POST['user_message']) && !empty($_POST['user_message'])) {
       $stripUserName = strip_tags($_POST['user_name']);
       $stripUserMail = strip_tags($_POST['user_mail']);
@@ -7,3 +9,4 @@ if (isset($_POST['user_name']) && !empty($_POST['user_name']) && isset($_POST['u
 }else {
       echo 'pas bon';
 } */
+get_footer();

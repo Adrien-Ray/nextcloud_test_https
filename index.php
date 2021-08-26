@@ -16,9 +16,14 @@ if ( is_page('newsletter') ) {
                   h3{
                         margin: auto;
                   }
+                  .a{
+                        text-decoration: none;
+                        color: white;
+                  }
             </style>
             <div class="h3">
                   <h3>félicitation! vous êtes inscrits sur la newsletter de Shape</h3>
+                  <a class="a" href="<?php echo home_url(); ?>"><h4>retour a l'accueil</h4></a>
             </div>
             <?php
       }

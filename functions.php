@@ -95,4 +95,80 @@ function shape_register_post_types() {
     }
 add_action( 'init', 'shape_register_post_types' );
 
+
+
+
+
+
+
+
+
+
+
+
+function shape_register_post_presentation() {
+	// La déclaration de nos Custom Post Types et Taxonomies ira ici
+    // CPT prestations
+    $labels = array(
+        'name' => 'presentation',
+        'singular_name' => 'presentation',
+        'add_new_item' => 'Ajouter la presentation',
+        'edit_item' => 'Modifier la presentation',
+        'menu_name' => 'presentation'
+    );
+
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor','thumbnail' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+
+	register_post_type( 'presentation', $args );
+
+
+    }
+add_action( 'init', 'shape_register_post_presentation' );
+
+
+
+
+
+
+
+
+
+
+
+
+function shape_register_post_confiance() {
+	// La déclaration de nos Custom Post Types et Taxonomies ira ici
+    // CPT prestations
+    $labels = array(
+        'name' => 'confiance',
+        'singular_name' => 'confiance',
+        'add_new_item' => 'Ajouter la confiance',
+        'edit_item' => 'Modifier la confiance',
+        'menu_name' => 'confiance'
+    );
+
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor','thumbnail' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+
+	register_post_type( 'confiance', $args );
+
+
+    }
+add_action( 'init', 'shape_register_post_confiance' );
+
 add_theme_support( 'post-thumbnails' );

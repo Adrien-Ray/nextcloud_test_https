@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-    <div class="haut-de-page" id="lagence">
+    <!-- <div class="haut-de-page" id="lagence">
         <div class="image-1">
             <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
@@ -10,8 +10,22 @@
             <h5 id="sous-titre">Vos projets prennent forme.</h5>
             <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
         </div>
-    </div>
+    </div> -->
 
+    <?php $loop = new WP_Query((array('post_type' => 'presentation','order'=>'DSC', 'posts_per_page'=>1)));
+    while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <div class="haut-de-page" id="lagence">
+            <div class="image-1">
+                <img class="div-img" src="<?php the_post_thumbnail_url(); ?>" alt="">
+            </div>
+            <div class="article-haut">
+                <h1 class="titre_shape"><?php the_title(); ?></h1>
+                <?php the_content(); ?>
+            </div>
+        </div>
+    <?php endwhile; wp_reset_query(); ?>
+
+    
 
 
     <div class="titre-haut-carte">
@@ -54,7 +68,7 @@
         
     </div>
    
-    <div class="titre-centre">
+    <!-- <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
             <div class="trait-faites-nous-confiance">
                 <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
@@ -73,8 +87,37 @@
         <div class="div_image_2">
             <img class="div-img div-img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
         </div>
-    </div>
+    </div> -->
     
+
+
+
+
+    <?php $loop = new WP_Query((array('post_type' => 'confiance','order'=>'DSC', 'posts_per_page'=>1)));
+    while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    
+        <div class="titre-centre">
+            <div class="encadremenet-faites-nous-confiance">
+                <div class="trait-faites-nous-confiance">
+                    <h2 class="faites-nous-confiance"><?php the_title(); ?></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="centre">
+            <div class="article-centre">
+                <?php the_content(); ?>
+            </div>
+            <div class="div_image_2">
+                <img class="div-img div-img-2" src="<?php the_post_thumbnail_url(); ?>" alt="">
+            </div>
+        </div>
+    <?php endwhile; wp_reset_query(); ?>
+
+
+
+
+
 
 
 
@@ -90,15 +133,15 @@
                 <form action="form.php" method="post">
                     <div>
                         <label for="name"> </label>
-                        <input type="text" id="name" name="user_name" placeholder="Votre nom">
+                        <input type="text" id="name" name="user_name" placeholder="Votre nom" required>
                     </div>
                     <div>
                         <label for="mail">  </label>
-                        <input type="email" id="mail" name="user_mail" placeholder="Votre email">
+                        <input type="email" id="mail" name="user_mail" placeholder="Votre email" required>
                     </div>
                     <div>
                         <label for="msg">  </label>
-                        <textarea id="msg" name="user_message" placeholder="Votre message"></textarea>
+                        <textarea id="msg" name="user_message" placeholder="Votre message" required></textarea>
                     </div>
                     <div class="contact_form_bouton">
                         <button type="submit">Envoyer</button>
