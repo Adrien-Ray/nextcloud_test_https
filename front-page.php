@@ -43,13 +43,13 @@
             
         <div class="carte2 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
-            <h2 class="titre-carte"> DÉVELOPPEMENT</h2>
+            <h2 class="titre-carte">DÉVELOPPEMENT</h2>
             <p class="para-carte">Nous concevons pour vous un site internet dont le but est de générer du trafic des propects. Nos développeurs et web designer créent des interfaces utilisateur uniques et modernes pour la croissance de votre entreprise</p>
         </div>
         <div class="carte3 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
-            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
+            <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads </p>
         </div>
         
     </div>
