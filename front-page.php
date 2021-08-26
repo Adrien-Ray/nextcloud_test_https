@@ -85,6 +85,13 @@
             <h2 id="contact-h2">CONTACT</h2>
         </div>
 
+        <div class="contact_para-mobile" >
+            <h3 class="contact_para-mobile">Je souhaite vous contacter</h3>
+            <p 
+             class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
+            </p>
+        </div>
+
         <div class="contact">
             <div class="contact_form">
                 <form action="form.php" method="post">
@@ -120,6 +127,7 @@
            </div> 
         </div>
     </div>
+
 
     <div id="equipe" style="display:none">
         <div class="container">
