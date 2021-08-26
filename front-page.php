@@ -11,12 +11,30 @@
             <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
         </div>
     </div>
+
+
+
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
+
             <h2 class="nos-services" href="#">NOS SERVICES</h2>
         </div>
     </div>
+
     <div class="carte">
+
+    <?php $loop = new WP_Query((array('post_type' => 'services','order'=>'DSC', 'posts_per_page'=>3))); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <div class="carte1 carte__child">
+                    <?php the_post_thumbnail() ?>
+                    <h2 class="titre-carte"><?php the_title() ?></h2>
+                    <?php the_content() ?>
+
+            </div>
+            <?php endwhile; wp_reset_query(); ?>
+
+
+
         <div class="carte1 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
             <h2 class="titre-carte">IDENTITÉ-VISUELLE</h2>
@@ -38,9 +56,8 @@
    
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
-            <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
             <div class="trait-faites-nous-confiance">
-
+                <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
             </div>
         </div>
     </div>

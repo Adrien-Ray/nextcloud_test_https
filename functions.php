@@ -63,3 +63,36 @@ function register_assets(){
 		);
 }}
 add_action('wp_enqueue_scripts', 'register_assets');
+
+
+
+
+
+function shape_register_post_types() {
+	// La déclaration de nos Custom Post Types et Taxonomies ira ici
+    // CPT prestations
+    $labels = array(
+        'name' => 'services',
+        'singular_name' => 'service',
+        'add_new_item' => 'Ajouter un service',
+        'edit_item' => 'Modifier le services',
+        'menu_name' => 'Services'
+    );
+
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor','thumbnail' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+
+	register_post_type( 'services', $args );
+
+
+    }
+add_action( 'init', 'shape_register_post_types' );
+
+add_theme_support( 'post-thumbnails' );

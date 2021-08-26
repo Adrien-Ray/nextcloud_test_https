@@ -237,12 +237,14 @@ h3{
     margin-right:50%;
     
 }
+.trait-faites-nous-confiance{
+    text-align: center;
+}
 
 .faites-nous-confiance{
-    display: block;
+    display: inline-block;
     color: white;
     font-size: 3rem;
-    text-align: center;
 }
 
 #button{
