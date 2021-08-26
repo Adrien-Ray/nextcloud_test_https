@@ -17,9 +17,9 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
             </div>
             <div class="nav header__child" id="nav">
-                  <a href="#" class="nav__child">L'agence</a>
-                  <a href="#" class="nav__child">Nos services</a>
-                  <a href="#" class="nav__child">Contact</a>
+                  <a href="#lagence" class="nav__child">L'agence</a>
+                  <a href="#services" class="nav__child">Nos services</a>
+                  <a href="#contact-h2" class="nav__child">Contact</a>
             </div>
       </header>
 

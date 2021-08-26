@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-    <div class="haut-de-page">
+    <div class="haut-de-page" id="lagence">
         <div class="image-1">
             <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
@@ -17,7 +17,7 @@
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
 
-            <h2 class="nos-services" href="#">NOS SERVICES</h2>
+            <h2 class="nos-services" id="services" href="#">NOS SERVICES</h2>
         </div>
     </div>
 
