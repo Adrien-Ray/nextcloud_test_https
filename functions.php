@@ -171,4 +171,32 @@ function shape_register_post_confiance() {
     }
 add_action( 'init', 'shape_register_post_confiance' );
 
+
+function shape_register_post_contact() {
+	// La déclaration de nos Custom Post Types et Taxonomies ira ici
+    // CPT prestations
+    $labels = array(
+        'name' => 'contact',
+        'singular_name' => 'contact',
+        'add_new_item' => 'Ajouter le contact',
+        'edit_item' => 'Modifier le contact',
+        'menu_name' => 'contact'
+    );
+
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+
+	register_post_type( 'contact', $args );
+
+
+    }
+add_action( 'init', 'shape_register_post_contact' );
+
 add_theme_support( 'post-thumbnails' );
