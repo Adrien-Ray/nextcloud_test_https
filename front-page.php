@@ -272,24 +272,21 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div id="equipe-h2-parent">
             <h2 id="equipe-h2"><?php the_title(); ?></h2>
         </div>
+<?php endwhile; wp_reset_query(); ?>
 
-        <div class="equipe_card ">
+        <div class="equipe_card">
+        <?php $loop = new WP_Query((array('post_type' => 'contactTeam','order'=>'DSC', 'posts_per_page'=>40)));
+        while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <div class="equipe_card_membre">
-                <span>KARINA</span> <br> 
-                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br> <br>
-                <span>Co-fondatrice <br>Web Designer </span>
+                <span><?php the_title(); ?></span> <br> 
+                <img class="equipe_card_membre_img" src="<?php the_post_thumbnail_url(); ?>" alt=""> <br> <br>
+                <?php the_content(); ?>
             </div>
-            <div class="equipe_card_membre">
-                <span>JEAN-BAPTISTE</span> <br> 
-                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-JB.png" alt=""> <br> <br>
-                <span>Co-fondatrice <br>Web Designer </span>
-            </div>
-            <div class="equipe_card_membre">
-                <span>CHLOÉ</span> <br> 
-                <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-chloé.png" alt=""> <br> <br>
-                <span>Co-fondatrice <br>Web Designer </span>
-            </div>
+        <?php endwhile; wp_reset_query(); ?>
         </div>
+
+        <?php $loop = new WP_Query((array('post_type' => 'contactHide','order'=>'DSC', 'posts_per_page'=>1)));
+        while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="equipe_para">
             <?php the_content(); ?>
         </div>

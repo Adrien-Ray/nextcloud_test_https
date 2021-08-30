@@ -221,4 +221,27 @@ function shape_register_post_contactHide() {
     }
 add_action( 'init', 'shape_register_post_contactHide' );
 
+
+
+function shape_register_post_contactTeam() {
+    $labels = array(
+        'name' => 'contactTeam',
+        'singular_name' => 'contactTeam',
+        'add_new_item' => 'Ajouter le contactTeam',
+        'edit_item' => 'Modifier le contactTeam',
+        'menu_name' => 'contactTeam'
+    );
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor','thumbnail' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+	register_post_type( 'contactTeam', $args );
+    }
+add_action( 'init', 'shape_register_post_contactTeam' );
+
 add_theme_support( 'post-thumbnails' );
