@@ -181,7 +181,7 @@
 
 <?php $loop = new WP_Query((array('post_type' => 'contact','order'=>'DSC', 'posts_per_page'=>1)));
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
-    <div class="container ">
+    <div class="container " id="contact">
 
     <div id="contact-h2-parent">
         <h2 id="contact-h2"><?php the_title(); ?></h2>
