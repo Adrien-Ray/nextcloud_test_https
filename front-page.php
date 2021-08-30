@@ -122,7 +122,7 @@
 
 
 
-    <div class="container ">
+    <!-- <div class="container ">
 
         <div id="contact-h2-parent">
             <h2 id="contact-h2">CONTACT</h2>
@@ -169,7 +169,63 @@
                 </div>
            </div> 
         </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+<?php $loop = new WP_Query((array('post_type' => 'contact','order'=>'DSC', 'posts_per_page'=>1)));
+while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    <div class="container ">
+
+    <div id="contact-h2-parent">
+        <h2 id="contact-h2"><?php the_title(); ?></h2>
     </div>
+
+    <div class="contact">
+        <div class="contact_form">
+            <form action="form.php" method="post">
+                <div>
+                    <label for="name"> </label>
+                    <input type="text" id="name" name="user_name" placeholder="Votre nom" required>
+                </div>
+                <div>
+                    <label for="mail">  </label>
+                    <input type="email" id="mail" name="user_mail" placeholder="Votre email" required>
+                </div>
+                <div>
+                    <label for="msg">  </label>
+                    <textarea id="msg" name="user_message" placeholder="Votre message" required></textarea>
+                </div>
+                <div class="contact_form_bouton">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="contact_para"> 
+            <div class="contact_para-1">
+                <?php the_content(); ?>
+            </div>
+            <div class="contact_para-2">
+                <button id="contact_para-2_bouton">Découvrir notre équipe</button>
+            </div>
+        </div> 
+    </div>
+    </div>
+    <?php endwhile; wp_reset_query(); ?>
+
+
+
+
+
+
+
 
 
     <div id="equipe" style="display:none">
