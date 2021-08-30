@@ -9,8 +9,12 @@ Version: 0.1
 */
 body{
     background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
+h1,h2,h3,h4,.nav__child{
+    font-family: 'Cuprum', sans-serif;
+}
 
 /* PARTIE HAUT ADAM RÉVISER AD */
 
