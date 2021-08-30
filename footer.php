@@ -3,7 +3,7 @@ newsletter_form();
 ?>
 <div class="initial_footer">
       <div class="initial_footer__child">
-            Mentions légales
+           <a style="text-decoration: none;color:white;" href="https://github.com/shape-agency/shape-design/blob/main/design/mentions-l%C3%A9gales.pdf">Mentions légales</a>
       </div>
       <div class="initial_footer__child">
             2021 | Tous droits réservés SHAPE
