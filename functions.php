@@ -199,4 +199,26 @@ function shape_register_post_contact() {
     }
 add_action( 'init', 'shape_register_post_contact' );
 
+
+function shape_register_post_contactHide() {
+    $labels = array(
+        'name' => 'contactHide',
+        'singular_name' => 'contcontactHideact',
+        'add_new_item' => 'Ajouter le contactHide',
+        'edit_item' => 'Modifier le contactHide',
+        'menu_name' => 'contactHide'
+    );
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor' ),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+	register_post_type( 'contactHide', $args );
+    }
+add_action( 'init', 'shape_register_post_contactHide' );
+
 add_theme_support( 'post-thumbnails' );

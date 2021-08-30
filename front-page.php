@@ -265,12 +265,12 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 
 
-<?php $loop = new WP_Query((array('post_type' => 'contact','order'=>'DSC', 'posts_per_page'=>1)));
+<?php $loop = new WP_Query((array('post_type' => 'contactHide','order'=>'DSC', 'posts_per_page'=>1)));
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <div id="equipe" style="display:none">
     <div class="container">
         <div id="equipe-h2-parent">
-            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            <h2 id="equipe-h2"><?php the_title(); ?></h2>
         </div>
 
         <div class="equipe_card ">
@@ -290,9 +290,9 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <span>Co-fondatrice <br>Web Designer </span>
             </div>
         </div>
-        <p 
-            class="equipe_para"> Nous sommes une équipe de trois stagiaires de l'Access code school de Dijon.<br> <br> Nous avions pour objectif de fonder une agence web fictive, l'interface visiteur est un thème Wordpress personnalisé donc le contenu est administré par le back-office de Wordpress. <br> Nous avons choisi d'offrir une solution web adaptée aux besoins des artisans de Bourgogne-Franche-Comté. 
-        </p>
+        <div class="equipe_para">
+            <?php the_content(); ?>
+        </div>
     </div>
 </div>
 <?php endwhile; wp_reset_query(); ?>
