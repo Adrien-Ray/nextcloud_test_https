@@ -244,4 +244,28 @@ function shape_register_post_contactTeam() {
     }
 add_action( 'init', 'shape_register_post_contactTeam' );
 
+
+
+
+function shape_register_post_contactForm() {
+    $labels = array(
+        'name' => 'contactForm',
+        'singular_name' => 'contactForm',
+        'add_new_item' => 'Ajouter le contactForm',
+        'edit_item' => 'Modifier le contactForm',
+        'menu_name' => 'contactForm'
+    );
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array('editor'),
+        'menu_position' => 5, 
+        'menu_icon'   => 'dashicons-money-alt',
+	);
+	register_post_type( 'contactForm', $args );
+    }
+add_action( 'init', 'shape_register_post_contactForm' );
+
 add_theme_support( 'post-thumbnails' );

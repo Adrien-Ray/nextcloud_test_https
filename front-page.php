@@ -60,9 +60,9 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
     <div id="contact-h2-parent">
         <h2 id="contact-h2"><?php the_title(); ?></h2>
     </div>
-
+<?php endwhile; wp_reset_query(); ?>
     <div class="contact">
-        <div class="contact_form">
+        <!-- <div class="contact_form">
             <form action="form.php" method="post">
                 <div>
                     <label for="name"> </label>
@@ -80,8 +80,17 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
                     <button type="submit">Envoyer</button>
                 </div>
             </form>
-        </div>
+        </div> -->
 
+        <?php $loop = new WP_Query((array('post_type' => 'contactForm','order'=>'DSC', 'posts_per_page'=>1)));
+        while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <div class="contact_form">
+            <?php the_content(); ?>
+            </div>
+        <?php endwhile; wp_reset_query(); ?>
+
+        <?php $loop = new WP_Query((array('post_type' => 'contact','order'=>'DSC', 'posts_per_page'=>1)));
+while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="contact_para"> 
             <div class="contact_para-1">
                 <?php the_content(); ?>
