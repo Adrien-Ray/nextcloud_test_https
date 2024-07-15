@@ -1,0 +1,40 @@
+# https://hub.docker.com/r/linuxserver/nextcloud
+
+version: '3'
+
+services:
+
+  db:
+    image: mariadb:latest
+    restart: always
+    # SUPPRESSION DES LOGS
+    # command: --transaction-isolation=READ-COMMITTED --log-bin=binlog --binlog-format=ROW
+    ports:
+      - 8084:3306
+    volumes:
+      - ./data_db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+
+  nextcloud:
+    image: lscr.io/linuxserver/nextcloud:latest
+    container_name: nextcloud
+    links:
+      - db
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_HOST=db
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    ports:
+      - 666:443
+    restart: unless-stopped
