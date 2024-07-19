@@ -14,8 +14,8 @@ services:
     volumes:
       - ./data_db:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
 
@@ -28,7 +28,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
       - MYSQL_HOST=db
