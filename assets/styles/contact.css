@@ -111,6 +111,10 @@ button:hover,.wpcf7-submit:hover {
     font-size: 1.1rem;
 }
 
+.contact_form textarea {
+    height: 10rem;
+}
+
 @media screen and (max-width: 985px){
     .contact_para-1 {
         display: flex;
