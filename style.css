@@ -31,6 +31,13 @@ h1,h2,h3,h4,.nav__child{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width:999px) {
+    .haut-de-page {
+        flex-direction: column-reverse;
+    }
+}
+
 .haut-de-page .image-1{
 }
 .haut-de-page .article-haut{
