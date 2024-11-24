@@ -11,7 +11,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Nunito+Sans&display=swap" rel="stylesheet"> 
       <?php wp_head(); ?>
 </head>
-<body>
+<body id="topScroll">
       <header id="header">
             <div class="logo header__child">
                   <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt=""></a>
@@ -20,7 +20,7 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/hamburger.png" alt="">
             </div>
             <div class="nav header__child" id="nav">
-                  <a href="#lagence" class="nav__child">L'agence</a>
+                  <a href="#topScroll" class="nav__child">L'agence</a>
                   <a href="#services" class="nav__child">Nos services</a>
                   <a href="#contact-h2" class="nav__child">Contact</a>
             </div>
