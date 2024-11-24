@@ -103,7 +103,13 @@ button:hover,.wpcf7-submit:hover {
 ::placeholder {
     color: #c09628;
     font-size: 1.5em;
-  }
+}
+
+.wpcf7-response-output {
+    color: #c09628;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
 
 @media screen and (max-width: 985px){
     .contact_para-1 {
