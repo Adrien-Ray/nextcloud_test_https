@@ -6,7 +6,6 @@ function closeNavMenuMobile() {
         const element = elementsItems[index];
         element.addEventListener('click', () => {
             if (window.innerWidth <= 560) {
-                console.log(element);
                 document.querySelector('#burger').click();
             }
         })

@@ -31,7 +31,6 @@
             let b = 0;
             document.getElementById('burger').addEventListener('click', hideShow);
             function hideShow(){
-                  console.log('hello');
                   if (b == 0) {
                         document.getElementById('nav').style.animation = 'menu 0.2s linear';
                         document.getElementById('nav').style.animationFillMode = 'both'; //ça bloque a 100%
