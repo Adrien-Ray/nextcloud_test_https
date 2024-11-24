@@ -13,11 +13,11 @@ function register_assets(){
 		
 	);
 	
-	wp_enqueue_script(
+	/* wp_enqueue_script(
 		'custom-scripts',
 		get_template_directory_uri().'/assets/scripts/main.js',
 		 array(),
-		'1.0');
+		'1.0'); */
 		
 
     wp_enqueue_style(
