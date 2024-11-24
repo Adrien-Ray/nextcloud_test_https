@@ -24,6 +24,7 @@
                   <a href="#services" class="nav__child">Nos services</a>
                   <a href="#contact-h2" class="nav__child">Contact</a>
             </div>
+            <script>closeNavMenuMobile()</script>
       </header>
 
       <script>
