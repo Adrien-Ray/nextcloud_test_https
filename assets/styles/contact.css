@@ -23,7 +23,7 @@
 
 #name,.wpcf7-text {
     margin-top: 0px;
-    max-width: 400px;
+    max-width: calc(100vw - 10px);
     height: 70px;
 }
 
