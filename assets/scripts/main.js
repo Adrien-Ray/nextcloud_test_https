@@ -6,7 +6,6 @@ function closeNavMenuMobile() {
         const element = elementsItems[index];
         element.addEventListener('click', () => {
             if (window.innerWidth <= 560) {
-                // console.log("Le viewport est inférieur ou égal à 35rem.");
                 console.log(element);
                 document.querySelector('#burger').click();
             }
