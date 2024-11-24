@@ -15,7 +15,7 @@ function register_assets(){
 	
 	wp_enqueue_script(
 		'custom-scripts',
-		get_template_directory_uri().'/scripts/main.js',
+		get_template_directory_uri().'/assets/scripts/main.js',
 		 array(),
 		'1.0');
 		
